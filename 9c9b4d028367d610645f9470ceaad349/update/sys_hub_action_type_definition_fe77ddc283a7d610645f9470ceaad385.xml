@@ -16,7 +16,7 @@
         <flow_priority/>
         <ih_action>true</ih_action>
         <internal_name>openai_action</internal_name>
-        <label_cache>[{"name":"{{action.model}}","label":"action➛MODEL","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.variab}}","label":"action➛variab","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.prompt}}","label":"action➛PROMPT","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.result}}","label":"action➛Query","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"6bd40d3d-6577-4c2e-878f-7fac1717a2e7"}},{"name":"{{action.prompt1}}","label":"action➛Prompt","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[20905ac4-6039-402d-a2c7-4ea0e753854a].response_body}}","label":"step➛REST step➛Response Body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"hidden_for":"DATASTREAM"}},{"name":"{{step[79238e6b-6824-4cbb-bd5c-71d13b2cdb90].__step_status__.message}}","label":"step➛JSON Parser step➛Step Status➛Message","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[79238e6b-6824-4cbb-bd5c-71d13b2cdb90].root.object}}","label":"step➛JSON Parser step➛root➛object","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[79238e6b-6824-4cbb-bd5c-71d13b2cdb90].root.choices}}","label":"step➛JSON Parser step➛root➛choices","type":"step","ref":"","reference_display":"","base_type":"array.string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[79238e6b-6824-4cbb-bd5c-71d13b2cdb90].variable.variable_child1}}","label":"step➛JSON Parser step➛variable➛variable_child1","type":"step","ref":"","reference_display":"","base_type":"array.string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[79238e6b-6824-4cbb-bd5c-71d13b2cdb90].Payload.output}}","label":"step➛JSON Parser step➛Payload➛output","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[79238e6b-6824-4cbb-bd5c-71d13b2cdb90].Payload.Content}}","label":"step➛JSON Parser step➛Payload➛Content","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[0c5f4af9-87cb-415d-b69c-1dd79f977608].record.api_key}}","label":"step➛Look Up Record step➛API Key Credentials Record➛API Key","type":"step","ref":"","reference_display":"API Key","base_type":"password2","parent_table_name":"api_key_credentials","column_name":"api_key","choices":null,"attributes":{}}]</label_cache>
+        <label_cache>[{"name":"{{action.model}}","label":"action➛MODEL","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.variab}}","label":"action➛variab","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.prompt}}","label":"action➛PROMPT","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.result}}","label":"action➛Query","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceUiUniqueId":"","sourceType":"","uiType":"string","uiUniqueId":"6bd40d3d-6577-4c2e-878f-7fac1717a2e7"}},{"name":"{{action.prompt1}}","label":"action➛Prompt","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[20905ac4-6039-402d-a2c7-4ea0e753854a].response_body}}","label":"step➛REST step➛Response Body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"hidden_for":"DATASTREAM"}},{"name":"{{step[79238e6b-6824-4cbb-bd5c-71d13b2cdb90].__step_status__.message}}","label":"step➛JSON Parser step➛Step Status➛Message","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[79238e6b-6824-4cbb-bd5c-71d13b2cdb90].root.object}}","label":"step➛JSON Parser step➛root➛object","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[79238e6b-6824-4cbb-bd5c-71d13b2cdb90].root.choices}}","label":"step➛JSON Parser step➛root➛choices","type":"step","ref":"","reference_display":"","base_type":"array.string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[79238e6b-6824-4cbb-bd5c-71d13b2cdb90].variable.variable_child1}}","label":"step➛JSON Parser step➛variable➛variable_child1","type":"step","ref":"","reference_display":"","base_type":"array.string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[79238e6b-6824-4cbb-bd5c-71d13b2cdb90].Payload.output}}","label":"step➛JSON Parser step➛Payload➛output","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[79238e6b-6824-4cbb-bd5c-71d13b2cdb90].Payload.Content}}","label":"step➛JSON Parser step➛Payload➛Content","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[0c5f4af9-87cb-415d-b69c-1dd79f977608].record.api_key}}","label":"step➛Look Up Record step➛API Key Credentials Record➛API Key","type":"step","ref":"","reference_display":"API Key","base_type":"password2","parent_table_name":"api_key_credentials","column_name":"api_key","choices":null,"attributes":{}}]</label_cache>
         <master_snapshot>230dfd0a836bd610645f9470ceaad35b</master_snapshot>
         <master_snapshot_digest/>
         <name>OpenAI action</name>
@@ -31,7 +31,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>fe77ddc283a7d610645f9470ceaad385</sys_id>
-        <sys_mod_count>45</sys_mod_count>
+        <sys_mod_count>57</sys_mod_count>
         <sys_name>OpenAI action</sys_name>
         <sys_overrides/>
         <sys_package display_value="ICS S011 OpenAI HAck" source="x_869151_ics_s011">9c9b4d028367d610645f9470ceaad349</sys_package>
@@ -39,7 +39,7 @@
         <sys_scope display_value="ICS S011 OpenAI HAck">9c9b4d028367d610645f9470ceaad349</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_fe77ddc283a7d610645f9470ceaad385</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-02-07 14:38:53</sys_updated_on>
+        <sys_updated_on>2025-02-07 15:52:18</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -278,7 +278,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>5e7c710a836bd610645f9470ceaad3f5</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -286,7 +286,7 @@
         <sys_scope display_value="ICS S011 OpenAI HAck">9c9b4d028367d610645f9470ceaad349</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-02-07 14:38:49</sys_updated_on>
+        <sys_updated_on>2025-02-07 15:52:14</sys_updated_on>
         <type>complex_object_schema</type>
     </sys_complex_object>
     <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
@@ -865,7 +865,7 @@
     <sys_hub_step_ext_input action="delete_multiple" query="model=f06df54a836bd610645f9470ceaad3a5"/>
     <sys_hub_step_ext_output action="delete_multiple" query="model=f06df54a836bd610645f9470ceaad3a5"/>
     <sys_hub_input_scripts action="delete_multiple" query="instance=f06df54a836bd610645f9470ceaad3a5"/>
-    <sys_hub_action_input action="delete_multiple" query="model=fe77ddc283a7d610645f9470ceaad385^sys_idNOT IN0dc8990a83a7d610645f9470ceaad38a,5dc8990a83a7d610645f9470ceaad392"/>
+    <sys_hub_action_input action="delete_multiple" query="model=fe77ddc283a7d610645f9470ceaad385^sys_idNOT IN0dc8990a83a7d610645f9470ceaad38a,2b0f068283ebd610645f9470ceaad3b4"/>
     <sys_hub_action_input action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -989,7 +989,7 @@
         <internal_type display_value="String">string</internal_type>
         <label>Query</label>
         <mandatory>false</mandatory>
-        <max_length>8000</max_length>
+        <max_length>1215752192</max_length>
         <model display_value="OpenAI action">fe77ddc283a7d610645f9470ceaad385</model>
         <model_id>fe77ddc283a7d610645f9470ceaad385</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
@@ -1011,8 +1011,8 @@
         <staged>false</staged>
         <sys_class_name>sys_hub_action_input</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-02-07 11:54:17</sys_created_on>
-        <sys_id>5dc8990a83a7d610645f9470ceaad392</sys_id>
+        <sys_created_on>2025-02-07 15:51:28</sys_created_on>
+        <sys_id>2b0f068283ebd610645f9470ceaad3b4</sys_id>
         <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
@@ -1020,7 +1020,7 @@
         <sys_scope display_value="ICS S011 OpenAI HAck">9c9b4d028367d610645f9470ceaad349</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-02-07 14:38:37</sys_updated_on>
+        <sys_updated_on>2025-02-07 15:52:04</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1033,7 +1033,7 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_action_input>
-    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=5dc8990a83a7d610645f9470ceaad392"/>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=2b0f068283ebd610645f9470ceaad3b4"/>
     <sys_hub_action_output action="delete_multiple" query="model=fe77ddc283a7d610645f9470ceaad385^sys_idNOT IN1b9c350a836bd610645f9470ceaad3ea,dec8d90a83a7d610645f9470ceaad319,e2c8d90a83a7d610645f9470ceaad338"/>
     <sys_hub_action_output action="INSERT_OR_UPDATE">
         <active>true</active>
@@ -1274,14 +1274,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-02-07 11:54:22</sys_created_on>
         <sys_id>e2c8d90a83a7d610645f9470ceaad338</sys_id>
-        <sys_mod_count>53</sys_mod_count>
+        <sys_mod_count>63</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="ICS S011 OpenAI HAck">9c9b4d028367d610645f9470ceaad349</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-02-07 14:38:50</sys_updated_on>
+        <sys_updated_on>2025-02-07 15:52:14</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1309,6 +1309,29 @@
     </sys_hub_action_status_metadata>
     <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=f2c8d90a83a7d610645f9470ceaad36a"/>
     <sys_documentation action="INSERT_OR_UPDATE">
+        <element>result</element>
+        <help/>
+        <hint/>
+        <label>Query</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_fe77ddc283a7d610645f9470ceaad385</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-07 15:51:28</sys_created_on>
+        <sys_id>2b0f068283ebd610645f9470ceaad3b7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="ICS S011 OpenAI HAck" source="x_869151_ics_s011">9c9b4d028367d610645f9470ceaad349</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ICS S011 OpenAI HAck">9c9b4d028367d610645f9470ceaad349</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-07 15:51:28</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
         <element>prompt1</element>
         <help/>
         <hint/>
@@ -1328,29 +1351,6 @@
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-02-07 11:54:17</sys_updated_on>
-        <url/>
-        <url_target/>
-    </sys_documentation>
-    <sys_documentation action="INSERT_OR_UPDATE">
-        <element>result</element>
-        <help/>
-        <hint/>
-        <label>Query</label>
-        <language>en</language>
-        <name>var__m_sys_hub_action_input_fe77ddc283a7d610645f9470ceaad385</name>
-        <plural/>
-        <sys_class_name>sys_documentation</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-02-07 11:54:17</sys_created_on>
-        <sys_id>d5c8990a83a7d610645f9470ceaad3a2</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_name/>
-        <sys_package display_value="ICS S011 OpenAI HAck" source="x_869151_ics_s011">9c9b4d028367d610645f9470ceaad349</sys_package>
-        <sys_policy/>
-        <sys_scope display_value="ICS S011 OpenAI HAck">9c9b4d028367d610645f9470ceaad349</sys_scope>
-        <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-02-07 14:38:37</sys_updated_on>
         <url/>
         <url_target/>
     </sys_documentation>
@@ -1429,17 +1429,17 @@
     <sys_hub_action_plan action="INSERT_OR_UPDATE">
         <action_id display_value="OpenAI action">fe77ddc283a7d610645f9470ceaad385</action_id>
         <plan>{"type":"PlanProxy","persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"501d314a836bd610645f9470ceaad313","name":"plan","plan_signature":null}}</plan>
-        <snapshot>507e71ca836bd610645f9470ceaad3cc</snapshot>
+        <snapshot>f33f8a8283ebd610645f9470ceaad3e7</snapshot>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-02-07 14:32:53</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>501d314a836bd610645f9470ceaad313</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-02-07 14:38:55</sys_updated_on>
+        <sys_updated_on>2025-02-07 15:52:19</sys_updated_on>
     </sys_hub_action_plan>
     <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
         <access>public</access>
@@ -1456,7 +1456,7 @@
         <description>OpenAI action</description>
         <flow_priority/>
         <internal_name>openai_action</internal_name>
-        <label_cache>[{"name":"{{action.model}}","label":"action➛MODEL","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.variab}}","label":"action➛variab","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.prompt}}","label":"action➛PROMPT","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.result}}","label":"action➛Query","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"6bd40d3d-6577-4c2e-878f-7fac1717a2e7"}},{"name":"{{action.prompt1}}","label":"action➛Prompt","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[20905ac4-6039-402d-a2c7-4ea0e753854a].response_body}}","label":"step➛REST step➛Response Body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"hidden_for":"DATASTREAM"}},{"name":"{{step[79238e6b-6824-4cbb-bd5c-71d13b2cdb90].__step_status__.message}}","label":"step➛JSON Parser step➛Step Status➛Message","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[79238e6b-6824-4cbb-bd5c-71d13b2cdb90].root.object}}","label":"step➛JSON Parser step➛root➛object","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[79238e6b-6824-4cbb-bd5c-71d13b2cdb90].root.choices}}","label":"step➛JSON Parser step➛root➛choices","type":"step","ref":"","reference_display":"","base_type":"array.string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[79238e6b-6824-4cbb-bd5c-71d13b2cdb90].variable.variable_child1}}","label":"step➛JSON Parser step➛variable➛variable_child1","type":"step","ref":"","reference_display":"","base_type":"array.string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[79238e6b-6824-4cbb-bd5c-71d13b2cdb90].Payload.output}}","label":"step➛JSON Parser step➛Payload➛output","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[79238e6b-6824-4cbb-bd5c-71d13b2cdb90].Payload.Content}}","label":"step➛JSON Parser step➛Payload➛Content","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[0c5f4af9-87cb-415d-b69c-1dd79f977608].record.api_key}}","label":"step➛Look Up Record step➛API Key Credentials Record➛API Key","type":"step","ref":"","reference_display":"API Key","base_type":"password2","parent_table_name":"api_key_credentials","column_name":"api_key","choices":null,"attributes":{}}]</label_cache>
+        <label_cache>[{"name":"{{action.model}}","label":"action➛MODEL","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.variab}}","label":"action➛variab","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.prompt}}","label":"action➛PROMPT","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.result}}","label":"action➛Query","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceUiUniqueId":"","sourceType":"","uiType":"string","uiUniqueId":"6bd40d3d-6577-4c2e-878f-7fac1717a2e7"}},{"name":"{{action.prompt1}}","label":"action➛Prompt","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[20905ac4-6039-402d-a2c7-4ea0e753854a].response_body}}","label":"step➛REST step➛Response Body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"hidden_for":"DATASTREAM"}},{"name":"{{step[79238e6b-6824-4cbb-bd5c-71d13b2cdb90].__step_status__.message}}","label":"step➛JSON Parser step➛Step Status➛Message","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[79238e6b-6824-4cbb-bd5c-71d13b2cdb90].root.object}}","label":"step➛JSON Parser step➛root➛object","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[79238e6b-6824-4cbb-bd5c-71d13b2cdb90].root.choices}}","label":"step➛JSON Parser step➛root➛choices","type":"step","ref":"","reference_display":"","base_type":"array.string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[79238e6b-6824-4cbb-bd5c-71d13b2cdb90].variable.variable_child1}}","label":"step➛JSON Parser step➛variable➛variable_child1","type":"step","ref":"","reference_display":"","base_type":"array.string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[79238e6b-6824-4cbb-bd5c-71d13b2cdb90].Payload.output}}","label":"step➛JSON Parser step➛Payload➛output","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[79238e6b-6824-4cbb-bd5c-71d13b2cdb90].Payload.Content}}","label":"step➛JSON Parser step➛Payload➛Content","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[0c5f4af9-87cb-415d-b69c-1dd79f977608].record.api_key}}","label":"step➛Look Up Record step➛API Key Credentials Record➛API Key","type":"step","ref":"","reference_display":"API Key","base_type":"password2","parent_table_name":"api_key_credentials","column_name":"api_key","choices":null,"attributes":{}}]</label_cache>
         <master>true</master>
         <name>OpenAI action</name>
         <natlang/>
@@ -1469,7 +1469,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>230dfd0a836bd610645f9470ceaad35b</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -1477,7 +1477,7 @@
         <sys_scope display_value="ICS S011 OpenAI HAck">9c9b4d028367d610645f9470ceaad349</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-02-07 14:38:52</sys_updated_on>
+        <sys_updated_on>2025-02-07 15:52:16</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_snapshot>
@@ -1735,7 +1735,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>3b0dfd0a836bd610645f9470ceaad395</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -1743,7 +1743,7 @@
         <sys_scope display_value="ICS S011 OpenAI HAck">9c9b4d028367d610645f9470ceaad349</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-02-07 14:38:53</sys_updated_on>
+        <sys_updated_on>2025-02-07 15:52:17</sys_updated_on>
         <type>complex_object_schema</type>
     </sys_complex_object>
     <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
@@ -2253,7 +2253,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-02-07 14:32:51</sys_updated_on>
     </sys_hub_input_scripts>
-    <sys_hub_action_input action="delete_multiple" query="model=230dfd0a836bd610645f9470ceaad35b^sys_idNOT IN2f0dfd0a836bd610645f9470ceaad361,eb0dfd0a836bd610645f9470ceaad35d"/>
+    <sys_hub_action_input action="delete_multiple" query="model=230dfd0a836bd610645f9470ceaad35b^sys_idNOT IN673f8a8283ebd610645f9470ceaad3a5,eb0dfd0a836bd610645f9470ceaad35d"/>
     <sys_hub_action_input action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -2293,7 +2293,7 @@
         <internal_type display_value="String">string</internal_type>
         <label>Query</label>
         <mandatory>false</mandatory>
-        <max_length>8000</max_length>
+        <max_length>1215752192</max_length>
         <model display_value="OpenAI action">230dfd0a836bd610645f9470ceaad35b</model>
         <model_id>230dfd0a836bd610645f9470ceaad35b</model_id>
         <model_table>sys_hub_action_type_snapshot</model_table>
@@ -2315,16 +2315,16 @@
         <staged>false</staged>
         <sys_class_name>sys_hub_action_input</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-02-07 14:32:50</sys_created_on>
-        <sys_id>2f0dfd0a836bd610645f9470ceaad361</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_created_on>2025-02-07 15:52:17</sys_created_on>
+        <sys_id>673f8a8283ebd610645f9470ceaad3a5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="ICS S011 OpenAI HAck">9c9b4d028367d610645f9470ceaad349</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-02-07 14:38:52</sys_updated_on>
+        <sys_updated_on>2025-02-07 15:52:17</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -2337,7 +2337,7 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_action_input>
-    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=2f0dfd0a836bd610645f9470ceaad361"/>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=673f8a8283ebd610645f9470ceaad3a5"/>
     <sys_hub_action_input action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -2488,14 +2488,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-02-07 14:32:51</sys_created_on>
         <sys_id>4c1dfd0a836bd610645f9470ceaad3b4</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="ICS S011 OpenAI HAck">9c9b4d028367d610645f9470ceaad349</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-02-07 14:38:53</sys_updated_on>
+        <sys_updated_on>2025-02-07 15:52:18</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -2729,16 +2729,16 @@
         <plural/>
         <sys_class_name>sys_documentation</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-02-07 14:32:50</sys_created_on>
-        <sys_id>7b0dfd0a836bd610645f9470ceaad364</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_created_on>2025-02-07 15:52:17</sys_created_on>
+        <sys_id>673f8a8283ebd610645f9470ceaad3a8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package display_value="ICS S011 OpenAI HAck" source="x_869151_ics_s011">9c9b4d028367d610645f9470ceaad349</sys_package>
         <sys_policy/>
         <sys_scope display_value="ICS S011 OpenAI HAck">9c9b4d028367d610645f9470ceaad349</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-02-07 14:38:52</sys_updated_on>
+        <sys_updated_on>2025-02-07 15:52:17</sys_updated_on>
         <url/>
         <url_target/>
     </sys_documentation>

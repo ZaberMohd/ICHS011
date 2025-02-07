@@ -1,0 +1,1072 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=23298000,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version>27000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <display_name_after_preview/>
+        <flow_priority>MEDIUM</flow_priority>
+        <generation_source/>
+        <internal_name>summaries_the_incident</internal_name>
+        <label_cache>[{"name":"Updated_1.current.assigned_to.name","label":"Trigger - Record Updated➛Incident Record➛Assigned to➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"name","usedInstances":{"197da676-35bf-4b35-a8c4-ad10be75c6c3":["result"]}},{"name":"Updated_1.current.assignment_group.name","label":"Trigger - Record Updated➛Incident Record➛Assignment group➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"sys_user_group","column_name":"name","usedInstances":{"197da676-35bf-4b35-a8c4-ad10be75c6c3":["result"]}},{"name":"Updated_1.current.caller_id.name","label":"Trigger - Record Updated➛Incident Record➛Caller➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"name","usedInstances":{"197da676-35bf-4b35-a8c4-ad10be75c6c3":["result"]}},{"name":"Updated_1.current.short_description","label":"Trigger - Record Updated➛Incident Record➛Short description","reference":"","reference_display":"Short description","type":"string","base_type":"string","parent_table_name":"incident","column_name":"short_description","usedInstances":{"197da676-35bf-4b35-a8c4-ad10be75c6c3":["result"]}},{"name":"Updated_1.current.number","label":"Trigger - Record Updated➛Incident Record➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"incident","column_name":"number","usedInstances":{"9f177f7a-0b16-4a06-b941-8a0569071d99":["record"],"197da676-35bf-4b35-a8c4-ad10be75c6c3":["result"]}},{"name":"Updated_1.current","label":"Trigger - Record Updated➛Incident Record","reference":"incident","reference_display":"Incident","type":"reference","base_type":"reference","usedInstances":{"f6370233-2e6b-4d83-8ce1-f9b51d267c7e":["record"]},"attributes":{}},{"name":"197da676-35bf-4b35-a8c4-ad10be75c6c3.outputai","label":"2 - OpenAI action➛OutputAI","reference_display":"OutputAI","type":"string","base_type":"string","usedInstances":{"f6370233-2e6b-4d83-8ce1-f9b51d267c7e":["description"]},"attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"8a83e468-84f2-4246-8379-92fe51fe782b"}},{"name":"Updated_1.current.work_notes","label":"Trigger - Record Updated➛Incident Record➛Work notes","reference":"","reference_display":"Work notes","type":"journal_input","base_type":"journal_input","parent_table_name":"incident","column_name":"work_notes","usedInstances":{}},{"name":"Updated_1.table_name","label":"Trigger - Record Updated➛Incident Table","reference":"incident","reference_display":"Incident","type":"table_name","base_type":"table_name","usedInstances":{},"attributes":{"test_input_hidden":"true"}},{"name":"9f177f7a-0b16-4a06-b941-8a0569071d99.conversation","label":"1 - Retrieved Conversation➛conversation","reference_display":"conversation","type":"string","base_type":"string","usedInstances":{"197da676-35bf-4b35-a8c4-ad10be75c6c3":["result"]},"attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"3db055a7-e3e8-42cd-a8b9-9a41b9e3d44c"}}]</label_cache>
+        <master_snapshot>8552e70283a31a10645f9470ceaad32f</master_snapshot>
+        <master_snapshot_digest/>
+        <name>Summaries The Incident</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id>ed52e70283a31a10645f9470ceaad387</remote_trigger_id>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <substatus/>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-07 15:38:04</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>57fb0e4e83abd610645f9470ceaad320</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>Summaries The Incident</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="ICS S011 OpenAI HAck" source="x_869151_ics_s011">9c9b4d028367d610645f9470ceaad349</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ICS S011 OpenAI HAck">9c9b4d028367d610645f9470ceaad349</sys_scope>
+        <sys_update_name>sys_hub_flow_57fb0e4e83abd610645f9470ceaad320</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-07 22:06:25</sys_updated_on>
+        <type>flow</type>
+        <version>2</version>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=57fb0e4e83abd610645f9470ceaad320"/>
+    <sys_variable_value action="delete_multiple" query="document_key=57fb0e4e83abd610645f9470ceaad320"/>
+    <sys_flow_record_trigger action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition table="incident">state=7<item display_value="Closed" endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="7"/>
+        </condition>
+        <name/>
+        <on_delete>false</on_delete>
+        <on_insert>false</on_insert>
+        <on_update>true</on_update>
+        <published_version/>
+        <run_flow_in>background</run_flow_in>
+        <run_on_extended>false</run_on_extended>
+        <run_when_setting>both</run_when_setting>
+        <run_when_user_list/>
+        <run_when_user_setting>any</run_when_user_setting>
+        <sys_class_name>sys_flow_record_trigger</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-07 21:55:19</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>ed52e70283a31a10645f9470ceaad387</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope display_value="ICS S011 OpenAI HAck">9c9b4d028367d610645f9470ceaad349</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-07 21:55:19</sys_updated_on>
+        <table>incident</table>
+        <trigger_definition/>
+    </sys_flow_record_trigger>
+    <sys_trigger_runner_mapping action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <data>{"run_flow_in":"background","run_when_user_list":[],"run_when_setting":"both","run_when_user_setting":"any","run_on_extended":"false"}</data>
+        <identifier>57fb0e4e83abd610645f9470ceaad320</identifier>
+        <runner>FDTriggerRunner</runner>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-07 22:06:25</sys_created_on>
+        <sys_id>00e4a30683a31a10645f9470ceaad3af</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-07 22:06:25</sys_updated_on>
+        <trigger display_value="">ed52e70283a31a10645f9470ceaad387</trigger>
+    </sys_trigger_runner_mapping>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=57fb0e4e83abd610645f9470ceaad320^sys_idNOT IN00e4a30683a31a10645f9470ceaad3af"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=57fb0e4e83abd610645f9470ceaad320"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=57fb0e4e83abd610645f9470ceaad320^sys_idNOT IN1bfb0e4e83abd610645f9470ceaad322"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>57fb0e4e83abd610645f9470ceaad320</id>
+        <name>Summaries The Incident</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-07 15:38:04</sys_created_on>
+        <sys_id>1bfb0e4e83abd610645f9470ceaad322</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-07 15:38:04</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=1bfb0e4e83abd610645f9470ceaad322"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=57fb0e4e83abd610645f9470ceaad320^sys_idNOT IN412e4e0283ebd610645f9470ceaad375,492e4e0283ebd610645f9470ceaad37b,492e4e0283ebd610645f9470ceaad37e"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id,uiTypeLabel=Document ID</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Summaries The Incident">57fb0e4e83abd610645f9470ceaad320</model>
+        <model_id>57fb0e4e83abd610645f9470ceaad320</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_57fb0e4e83abd610645f9470ceaad320</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-07 15:47:28</sys_created_on>
+        <sys_id>412e4e0283ebd610645f9470ceaad375</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ICS S011 OpenAI HAck">9c9b4d028367d610645f9470ceaad349</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-07 15:47:28</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>true</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=412e4e0283ebd610645f9470ceaad375"/>
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FDCollection</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>global</scope_name>
+        <serialized_content>{"FlowDesigner:FDCollection":{"$COCollectionField":[{"FDChangeDetails":{"previous_display_value":"String","previous_display_value.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Previous Display Value\",\"mandatory\":\"false\",\"order\":\"4\",\"max_length\":\"0\"}"},"previous_value":"String","previous_value.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Previous Value\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\"}"},"current_display_value":"String","current_display_value.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Current Display Value\",\"mandatory\":\"false\",\"order\":\"5\",\"max_length\":\"0\"}"},"current_value":"String","current_value.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Current Value\",\"mandatory\":\"false\",\"order\":\"3\",\"max_length\":\"0\"}"},"field_name":"String","field_name.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Field Name\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"}}}],"$COCollectionField.$type_facets":{"SimpleMapFacet":"{\"pwd2droppable\":\"true\",\"default_value\":\"\",\"label\":\"Changed Fields\",\"mandatory\":\"false\",\"child_name\":\"FDChangeDetails\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FDCollection\",\"child_label\":\"FDChangeDetails\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_type\":\"object\",\"order\":\"100\",\"max_length\":\"4000\"}"},"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FDCollection.$type_facets":{"SimpleMapFacet":"{\"pwd2droppable\":\"true\",\"default_value\":\"\",\"label\":\"Changed Fields\",\"mandatory\":\"false\",\"child_name\":\"FDChangeDetails\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FDCollection\",\"child_label\":\"FDChangeDetails\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_type\":\"object\",\"order\":\"100\",\"max_length\":\"4000\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-06-13 23:19:20</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path/>
+        <sys_id>f4f014150f023300ecf0cc52ff767eed</sys_id>
+        <sys_mod_count>101</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="Flow Designer Designer Model" source="com.glide.hub.designer_backend.model">7dbaf38ce4d2021008dda4ccc400801f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Global">global</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-28 05:06:11</sys_updated_on>
+        <type>complex_object_collection</type>
+    </sys_complex_object>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,co_type_name=FDCollection,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>changed_fields</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Changed Fields</label>
+        <mandatory>false</mandatory>
+        <max_length>4000</max_length>
+        <model display_value="Summaries The Incident">57fb0e4e83abd610645f9470ceaad320</model>
+        <model_id>57fb0e4e83abd610645f9470ceaad320</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_57fb0e4e83abd610645f9470ceaad320</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-07 15:47:29</sys_created_on>
+        <sys_id>492e4e0283ebd610645f9470ceaad37b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ICS S011 OpenAI HAck">9c9b4d028367d610645f9470ceaad349</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-07 15:47:29</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=492e4e0283ebd610645f9470ceaad37b"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name,uiTypeLabel=Table Name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Summaries The Incident">57fb0e4e83abd610645f9470ceaad320</model>
+        <model_id>57fb0e4e83abd610645f9470ceaad320</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_57fb0e4e83abd610645f9470ceaad320</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-07 15:47:29</sys_created_on>
+        <sys_id>492e4e0283ebd610645f9470ceaad37e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ICS S011 OpenAI HAck">9c9b4d028367d610645f9470ceaad349</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-07 15:47:29</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=492e4e0283ebd610645f9470ceaad37e"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=57fb0e4e83abd610645f9470ceaad320"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=57fb0e4e83abd610645f9470ceaad320"/>
+    <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=57fb0e4e83abd610645f9470ceaad320^sys_idNOT INd92e4e0283ebd610645f9470ceaad3a3"/>
+    <sys_hub_trigger_instance_v2 action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Summaries The Incident">57fb0e4e83abd610645f9470ceaad320</flow>
+        <name>Updated</name>
+        <published_version/>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-07 15:47:29</sys_created_on>
+        <sys_id>d92e4e0283ebd610645f9470ceaad3a3</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-07 20:26:24</sys_updated_on>
+        <trigger_definition display_value="Updated">bb695e60c31322002841b63b12d3aea5</trigger_definition>
+        <trigger_inputs>H4sIAAAAAAAA/9Va227jNhD9FUFPLeAWutiWnT6luXQDZBPA9m4f0kCgSMomKlNeiVLWu8i/d6iLLesWX5St9yWJSWrmzPDMGTLy03fVQw711At1hhyPqj2VcUEDjrzZekVhWMhhm6OlnFsiTpDwg7V6IYKI9lQ38Jczulx5SMBiF3khDPoBoYF6offUGHkRna7DOwKW4PnETGZTzabhM+OYEcoFDBEWgrH152zmbjuDF8wjAeXqxdNzT12hAGwJ6ed7aYpJZzohSDeohk3dNAxNM0Z93Rmajm4QE1E0AoPlwEvgRE3828joV0E5oWQTdCU1AUXkkXvrwoqvIfsGNkeanHUpIMY0Tczmo50lIB3GC59h+rgSzOfpSIounfS9aMkfUtQyddRFkSfy1MFIFII9upJAIYU5Dne68F8mucNbxpOYsknPx8jbfEJCBMyJBA1lml3mQcLtNCOhHwUJ+snN1ePk2v77cnb14WZiT26ms8nd1ezmWn1N4rK/RNJiijDDYqfhvG72+5ZRT24bj5YOoOmpIQ7YSlxiweKcWK+9LVmvfE5YkpUKYXE+Fe4SNo++jbGa1shZXPCY8zYUYOSfSNNMYh3MUMcZI0JRA0OHVoGhxWhr4IiawIsRtXE1G2kma1/T/ie6ZgpzLFuXPqHe9dacCpPzOfCX8VUkZI7yvNj+igYyH/Cc+vny/urD5cNfN9M/st+3k8eP+d+zR3juBXER2sK3ESF2IevSBcTyFu3TnFS5/zbrg4iDCXuzn1XuJxuw2Yl7FkLgT1C5eZYTkzDv3mcmJxFXfNh4+KHgKIAkCyVXQPduiebZ3rhT6lEsCiRyP4XFTx9ZGDI+L6DeOE2yUvG5cQdkVPKQUt/hic6fuyz8atLjUjJLPetgJRhiovcda6hZUgd0zXRcXbO0AXKJqWljs6AEVTCNKEWJEh0qwmF6ECYU9PYgXDmxGWStWAN7kSfeZV4euiRGJjtX3UDTO4JmSGgl+TQP0s8NGdPh611OtoXW8SkBkRjBE2RfOZQL9tA91/NfQLqP0DwH4X/ngR9xUhYhaVNhXNmuUH7J8vdrh/rn+gFtB7C74pyUb5v2nLiIrzvQvD7FxBr2hxpInQkq5wzGYwcjw3WtoUU1UtK8LYxabGesdW9wLK4jaZPu1dIlrmPZAYp3AsCK+h0M8HTdy+hYq3rp3M+hby8Lym2AGtieVLCKzM09uAjnc93WeMV1vK3qU+vcdEdkMLAsbMENB+rc7VMH6X1jgMbW0KTDUp1XoLTBFDWZecd7T7gOE/cNGvApnTqvK/t7kjWkQsjWc3hH5nBSTZ5BqZNCV5SboSRS4gfKg89/u9uuU6YUml1y5e2qNe+DQm6s8r4wHF8sKmcDcP0njO+4lmfKhqyc3aWpRJJ4N9aTDxAjczwgrlkvLJZRJyxbMM0wz/QosWddxI0VVnem2JfmcW21NB4CjiBuiRzF00HL8aWrpOidJ8V4v6SYJx+Z8gpsvCkeA/YnalzJGeKU7iV9Utt3i5J97SswoYAThblK9r9GuPg7a0UsKKTUg7MxOFSk91O1utg7qlA2DP6xQNLTdqWHwbCSHZvOrz2VqNDtHRe7Y4eMzYaz76D57Nvcp0rTZ9qsDq6FuK60WjvWYXbLNmt7VoGouzzYsxt1GnV9Szot6tqm9FbUp7ebtht6DYrzbyQS9CzdhiPah89x6a6Bu3zZEnH2JaI2XiA+T1+k5I5uIc8U4YWSLlHSJV02AO8FrUO13ImAtLIusn87wwBUCE/1qyvPNKbBuhKrHFSiFZHN4Yc3n5ZvP2TvIUMRwJPz9U7F4i5eKGF9PDBMMsKmPjarX37QC41nl8vNCBs7zRvfhWjqNAuWvJMtuM/2S7AlTXRt82JVWSKBFzTsKbCpyUuMRPZYEIpk9e9qh7csTKvbUdeIGospbqrDRmFvqY+4XFl1Sl7D9bhUF0Utb71PtYSvdxK+0UX45nHh909uZXl91vayLHvd9q9j29XzfxClFMvaJQAA</trigger_inputs>
+        <trigger_outputs/>
+        <trigger_type>record_update</trigger_type>
+    </sys_hub_trigger_instance_v2>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=57fb0e4e83abd610645f9470ceaad320^sys_idNOT IN7efd834683231a10645f9470ceaad3bb,d12e4e0283ebd610645f9470ceaad3a7,d52e4e0283ebd610645f9470ceaad3a5"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Retrieved Conversation">133d430683231a10645f9470ceaad307</action_type>
+        <action_type_parent display_value="Retrieved Conversation">8a621a4683ebd610645f9470ceaad3fe</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Summaries The Incident">57fb0e4e83abd610645f9470ceaad320</flow>
+        <generation_source/>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-07 20:26:24</sys_created_on>
+        <sys_id>7efd834683231a10645f9470ceaad3bb</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="ICS S011 OpenAI HAck">9c9b4d028367d610645f9470ceaad349</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-07 22:06:22</sys_updated_on>
+        <ui_id>9f177f7a-0b16-4a06-b941-8a0569071d99</ui_id>
+        <values>H4sIAAAAAAAA/41RwWrjMBD9F50To9ROE+e2sBQW2i20215KMWNplAhkSZWltNmQf99RbGchpx7nzcyb9968HZmWbMNkW8qq5Lfr8qZcwILfVktVVysuEECWvGYzZqFDmgwoXJBU78GkDByPL15CRNksCpFCQBsLm7oWw+lEY1L33sDh9XvTYqeNJJBt3t5nzEOgoxED2xyvWvHgsTHQoiHS5xi03dL6d71Mi0+TmWtzmZ7qfiImNKtYzBh+RbQS6ZAC0+OMdWDJkAuHCxIQ5KM1/4GdtpHYWB7+6vVfol5zzvOkQrIkcOheymZMbYDFzmmBjz5qZwckQmvGHeFM6uzvQX/OGxUkE6e8CUk98aHPqrOMUZN63rnPp+ngnbZng2PTOAHmUkGkGNoUsc9/SPrPVTgDcn/9DDTY0cWmA+8JaXxwe32+QqK7YmuoKJRxn6Su11tbgMgOC0oTijvCf57hVwg6230gGlrO516s/kj4Kz+7Kmvkql7NoVrDvBIS5rVUat6ulzclXyosqxU7naNtPlI2NYQ0xtEMidJAL4L28QdJ2OPo/PT+D5xv1RMfAwAA</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Summaries The Incident">57fb0e4e83abd610645f9470ceaad320</flow>
+        <generation_source/>
+        <order>3</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-07 15:47:29</sys_created_on>
+        <sys_id>d12e4e0283ebd610645f9470ceaad3a7</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="ICS S011 OpenAI HAck">9c9b4d028367d610645f9470ceaad349</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-07 22:06:22</sys_updated_on>
+        <ui_id>f6370233-2e6b-4d83-8ce1-f9b51d267c7e</ui_id>
+        <values>H4sIAAAAAAAA/+1UTYvbMBD9K8Fnx9hxvm+FENhDd2Hb7mW7GFmaJAJZdmUpu6nJf+9IlpPsR7dhCZRCfdOM5s2bp+e5bwLOgnkwBBYns2RM0yRNB3E8mA6TfJzmyYClBCAJwkCSAvCmAloqhuctEcYGmuZbxYgGliURNUqB1Ps95hmvK0F2d/4aRuiGC4b5YH7/EAYVUYioQQXz5kVK7yrIBMlBYOGipKZA0N7VAjHOZdtV33Z0X9K3PfDMPHrGbRBTlk8ShwE8aZAMsN2KiBrCoCASxyzVLphrZTCggLAbKXaHGxsudTtpQZ5q/hPxh7G9twIcjXoVDsfMK9SJU3IKN5XmpWwjmuSiU64UppDX7QhWW1gRI/SJtqZGPKgsZUuiZbj6sikfb7t+Sy7ddJ6tKCkRhxPRWvHcaKjtc4AAJ0pBqorLdVapcstdMVIporXAQ7QS5SP2rPlaRoRa3hEKRKIlxhcufEcUt0N8Rhgs3rvhsx/G9m3H8IQzN7MbOHMPhVdrqnilPyHwFjzNfejtmo/eMwCdHd/7BPNoWS4pdzq9cunVMfMxt361/XrXbb9zuT4r/g1379dnMW/X0cXsOv1LdvWM/jG//sml8eDdNXXy0s6Y9YlDkaYDRpLfTRynrGmS2YSR8WTcT0f5qj/M01GfTOmwT1gS5zAZUewTlUZXRhP+1ga+COYH/wookImGXsslPFufDmDJQbD6DcG638I3yLa+wWGTX+zfSMax+/4v9Asu9IdfHvDhjIEIAAA=</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="OpenAI action">230dfd0a836bd610645f9470ceaad35b</action_type>
+        <action_type_parent display_value="OpenAI action">fe77ddc283a7d610645f9470ceaad385</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Summaries The Incident">57fb0e4e83abd610645f9470ceaad320</flow>
+        <generation_source/>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-07 15:47:29</sys_created_on>
+        <sys_id>d52e4e0283ebd610645f9470ceaad3a5</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_scope display_value="ICS S011 OpenAI HAck">9c9b4d028367d610645f9470ceaad349</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-07 22:06:22</sys_updated_on>
+        <ui_id>197da676-35bf-4b35-a8c4-ad10be75c6c3</ui_id>
+        <values>H4sIAAAAAAAA/+1VyY7bRhD9lQbPIkFK4iLdbCc2DCR2Ei8XwyCKzWqp4Sab7mVsZcB/dzVJyYPxTGAkk9scdOjiq+1V1dOH60i20T7CJm1Fm0K1KZq2yNJim4vdtkw5ArSbvI1WUQ8dEnIwuhtcRoYrUD5Y3viuAyP/RuaOyIRWSn+R/YFx3V+hseCk7lfsKA9HRT8XPn3CE2vRgVR2xYAHhGUOPiEBoW+Z9o7rDm3CnoJFevdTbMp9JVt6U2iHX92KcYPgkAHrtEFmdOOtY3Yq6EQu4JhBoZA7OwXgASWt9Uh5DVqtfMjNrMPBzqmhPy09xH641KYN1culDY+E/dpbb3COH8KeE0rLuEIwq1AgoXEOuZRtqUyuj2iwd6wHY4iZK2RaTDFaabm3IUFC3NJrUHB6/0jx/0YxP0rVEjDaf/i4igYwtN8OTbS/vvXJnQasFTSowiScIXbJ/WfP5uz4x3Q3d91RiE8Ge46sTRvKyFYR8Y89DSPaC1DUatRRr+C0OV0sNJz2da++G46ydxQtCuCvllYm2ldpmgakCLxwnL9envWya7OZH7Xk+HoIM5ktDhq1+HAaZte/mhsIW4oCvHLnLSWLtxQPh1B1KGOpSbw56i9/nRM+l/3U4PJRaQ7q8gJHNDTeoQ2D8PLtLXJmy2+3p4EKO8pYdzAMZKmXfaAsVHSXHBQ9EkEbR9VZeeiTeesSYhOS52T/ZTK/pyML7f5OYcg5pHvXy88eX4Zpr0tRYcOrOE+LLN7ydRVXCHkMJeSF4CjStIrGidr6sw9NzSQtdNQzowSw3MjBPeFhOZfOx9WixEW5ERVU62qDd6wU5N83iI6LyL8hxM9uqAG7vt6JrCxFCXHaZEW8hbSIm902iytI82KXllm72yU3FWQcaU7G0RnOBYYwewr0biCasK2zhHsTTiuxAVffwI3jK981aO7B99PHcXwGShEobNA9SD4hatkmoctxfGLDXMJs2QujSS7udoMLrD4E2OIdpGGOwJz+R1cyOb14/ai/j8w+GLMPIbs/cSNnxz89klr+eDP3iO76wUQ3W2d5ma+z3fpRev+79NLf6zZtN21c5GUZpBfjqqxEXArgWZmVsMbyX0vvx2+44gJ4BgsAAA==</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=57fb0e4e83abd610645f9470ceaad320"/>
+    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=57fb0e4e83abd610645f9470ceaad320"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=57fb0e4e83abd610645f9470ceaad320"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=57fb0e4e83abd610645f9470ceaad320"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_57fb0e4e83abd610645f9470ceaad320</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-07 15:47:29</sys_created_on>
+        <sys_id>492e4e0283ebd610645f9470ceaad37a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="ICS S011 OpenAI HAck" source="x_869151_ics_s011">9c9b4d028367d610645f9470ceaad349</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ICS S011 OpenAI HAck">9c9b4d028367d610645f9470ceaad349</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-07 15:47:29</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_57fb0e4e83abd610645f9470ceaad320</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-07 15:47:29</sys_created_on>
+        <sys_id>592e4e0283ebd610645f9470ceaad380</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="ICS S011 OpenAI HAck" source="x_869151_ics_s011">9c9b4d028367d610645f9470ceaad349</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ICS S011 OpenAI HAck">9c9b4d028367d610645f9470ceaad349</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-07 15:47:29</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>changed_fields</element>
+        <help/>
+        <hint/>
+        <label>Changed Fields</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_57fb0e4e83abd610645f9470ceaad320</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-07 15:47:29</sys_created_on>
+        <sys_id>8d2e4e0283ebd610645f9470ceaad37d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="ICS S011 OpenAI HAck" source="x_869151_ics_s011">9c9b4d028367d610645f9470ceaad349</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ICS S011 OpenAI HAck">9c9b4d028367d610645f9470ceaad349</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-07 15:47:29</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_57fb0e4e83abd610645f9470ceaad320"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_57fb0e4e83abd610645f9470ceaad320"/>
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version>27000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <flow_priority>MEDIUM</flow_priority>
+        <internal_name>summaries_the_incident</internal_name>
+        <label_cache>[{"name":"Updated_1.current.assigned_to.name","label":"Trigger - Record Updated➛Incident Record➛Assigned to➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"name","usedInstances":{"197da676-35bf-4b35-a8c4-ad10be75c6c3":["result"]}},{"name":"Updated_1.current.assignment_group.name","label":"Trigger - Record Updated➛Incident Record➛Assignment group➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"sys_user_group","column_name":"name","usedInstances":{"197da676-35bf-4b35-a8c4-ad10be75c6c3":["result"]}},{"name":"Updated_1.current.caller_id.name","label":"Trigger - Record Updated➛Incident Record➛Caller➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"name","usedInstances":{"197da676-35bf-4b35-a8c4-ad10be75c6c3":["result"]}},{"name":"Updated_1.current.short_description","label":"Trigger - Record Updated➛Incident Record➛Short description","reference":"","reference_display":"Short description","type":"string","base_type":"string","parent_table_name":"incident","column_name":"short_description","usedInstances":{"197da676-35bf-4b35-a8c4-ad10be75c6c3":["result"]}},{"name":"Updated_1.current.number","label":"Trigger - Record Updated➛Incident Record➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"incident","column_name":"number","usedInstances":{"9f177f7a-0b16-4a06-b941-8a0569071d99":["record"],"197da676-35bf-4b35-a8c4-ad10be75c6c3":["result"]}},{"name":"Updated_1.current","label":"Trigger - Record Updated➛Incident Record","reference":"incident","reference_display":"Incident","type":"reference","base_type":"reference","usedInstances":{"f6370233-2e6b-4d83-8ce1-f9b51d267c7e":["record"]},"attributes":{}},{"name":"197da676-35bf-4b35-a8c4-ad10be75c6c3.outputai","label":"2 - OpenAI action➛OutputAI","reference_display":"OutputAI","type":"string","base_type":"string","usedInstances":{"f6370233-2e6b-4d83-8ce1-f9b51d267c7e":["description"]},"attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"8a83e468-84f2-4246-8379-92fe51fe782b"}},{"name":"Updated_1.current.work_notes","label":"Trigger - Record Updated➛Incident Record➛Work notes","reference":"","reference_display":"Work notes","type":"journal_input","base_type":"journal_input","parent_table_name":"incident","column_name":"work_notes","usedInstances":{}},{"name":"Updated_1.table_name","label":"Trigger - Record Updated➛Incident Table","reference":"incident","reference_display":"Incident","type":"table_name","base_type":"table_name","usedInstances":{},"attributes":{"test_input_hidden":"true"}},{"name":"9f177f7a-0b16-4a06-b941-8a0569071d99.conversation","label":"1 - Retrieved Conversation➛conversation","reference_display":"conversation","type":"string","base_type":"string","usedInstances":{"197da676-35bf-4b35-a8c4-ad10be75c6c3":["result"]},"attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"3db055a7-e3e8-42cd-a8b9-9a41b9e3d44c"}}]</label_cache>
+        <master>true</master>
+        <name>Summaries The Incident</name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="Summaries The Incident">57fb0e4e83abd610645f9470ceaad320</parent_flow>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-07 21:55:18</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>8552e70283a31a10645f9470ceaad32f</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ICS S011 OpenAI HAck">9c9b4d028367d610645f9470ceaad349</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-07 22:06:24</sys_updated_on>
+        <type>flow</type>
+        <version>2</version>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=8552e70283a31a10645f9470ceaad32f"/>
+    <sys_variable_value action="delete_multiple" query="document_key=8552e70283a31a10645f9470ceaad32f"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=8552e70283a31a10645f9470ceaad32f"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=8552e70283a31a10645f9470ceaad32f^sys_idNOT IN0d52e70283a31a10645f9470ceaad32f"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>8552e70283a31a10645f9470ceaad32f</id>
+        <name>Summaries The Incident</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-07 21:55:18</sys_created_on>
+        <sys_id>0d52e70283a31a10645f9470ceaad32f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-07 21:55:18</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=0d52e70283a31a10645f9470ceaad32f"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=8552e70283a31a10645f9470ceaad32f^sys_idNOT IN1152e70283a31a10645f9470ceaad33f,5952e70283a31a10645f9470ceaad345,8d52e70283a31a10645f9470ceaad330"/>
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FDCollection</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>global</scope_name>
+        <serialized_content>{"FlowDesigner:FDCollection":{"$COCollectionField":[{"FDChangeDetails":{"previous_display_value":"String","previous_display_value.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Previous Display Value\",\"mandatory\":\"false\",\"order\":\"4\",\"max_length\":\"0\"}"},"previous_value":"String","previous_value.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Previous Value\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\"}"},"current_display_value":"String","current_display_value.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Current Display Value\",\"mandatory\":\"false\",\"order\":\"5\",\"max_length\":\"0\"}"},"current_value":"String","current_value.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Current Value\",\"mandatory\":\"false\",\"order\":\"3\",\"max_length\":\"0\"}"},"field_name":"String","field_name.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Field Name\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"}}}],"$COCollectionField.$type_facets":{"SimpleMapFacet":"{\"pwd2droppable\":\"true\",\"default_value\":\"\",\"label\":\"Changed Fields\",\"mandatory\":\"false\",\"child_name\":\"FDChangeDetails\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FDCollection\",\"child_label\":\"FDChangeDetails\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_type\":\"object\",\"order\":\"100\",\"max_length\":\"4000\"}"},"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FDCollection.$type_facets":{"SimpleMapFacet":"{\"pwd2droppable\":\"true\",\"default_value\":\"\",\"label\":\"Changed Fields\",\"mandatory\":\"false\",\"child_name\":\"FDChangeDetails\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FDCollection\",\"child_label\":\"FDChangeDetails\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_type\":\"object\",\"order\":\"100\",\"max_length\":\"4000\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-06-13 23:19:20</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path/>
+        <sys_id>f4f014150f023300ecf0cc52ff767eed</sys_id>
+        <sys_mod_count>101</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="Flow Designer Designer Model" source="com.glide.hub.designer_backend.model">7dbaf38ce4d2021008dda4ccc400801f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Global">global</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-28 05:06:11</sys_updated_on>
+        <type>complex_object_collection</type>
+    </sys_complex_object>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,co_type_name=FDCollection,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>changed_fields</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Changed Fields</label>
+        <mandatory>false</mandatory>
+        <max_length>4000</max_length>
+        <model display_value="Summaries The Incident">8552e70283a31a10645f9470ceaad32f</model>
+        <model_id>8552e70283a31a10645f9470ceaad32f</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_8552e70283a31a10645f9470ceaad32f</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-07 21:55:18</sys_created_on>
+        <sys_id>1152e70283a31a10645f9470ceaad33f</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ICS S011 OpenAI HAck">9c9b4d028367d610645f9470ceaad349</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-07 22:06:24</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=1152e70283a31a10645f9470ceaad33f"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Summaries The Incident">8552e70283a31a10645f9470ceaad32f</model>
+        <model_id>8552e70283a31a10645f9470ceaad32f</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_8552e70283a31a10645f9470ceaad32f</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-07 21:55:18</sys_created_on>
+        <sys_id>5952e70283a31a10645f9470ceaad345</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ICS S011 OpenAI HAck">9c9b4d028367d610645f9470ceaad349</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-07 22:06:24</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=5952e70283a31a10645f9470ceaad345"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Summaries The Incident">8552e70283a31a10645f9470ceaad32f</model>
+        <model_id>8552e70283a31a10645f9470ceaad32f</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_8552e70283a31a10645f9470ceaad32f</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-07 21:55:18</sys_created_on>
+        <sys_id>8d52e70283a31a10645f9470ceaad330</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ICS S011 OpenAI HAck">9c9b4d028367d610645f9470ceaad349</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-07 22:06:24</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>true</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=8d52e70283a31a10645f9470ceaad330"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=8552e70283a31a10645f9470ceaad32f"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=8552e70283a31a10645f9470ceaad32f"/>
+    <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=8552e70283a31a10645f9470ceaad32f^sys_idNOT INd952e70283a31a10645f9470ceaad352"/>
+    <sys_hub_trigger_instance_v2 action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Summaries The Incident">8552e70283a31a10645f9470ceaad32f</flow>
+        <name>Updated</name>
+        <published_version/>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-07 21:55:19</sys_created_on>
+        <sys_id>d952e70283a31a10645f9470ceaad352</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-07 21:55:19</sys_updated_on>
+        <trigger_definition display_value="Updated">bb695e60c31322002841b63b12d3aea5</trigger_definition>
+        <trigger_inputs>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</trigger_inputs>
+        <trigger_outputs/>
+        <trigger_type>record_update</trigger_type>
+    </sys_hub_trigger_instance_v2>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=8552e70283a31a10645f9470ceaad32f^sys_idNOT IN1952e70283a31a10645f9470ceaad350,5552e70283a31a10645f9470ceaad352,9552e70283a31a10645f9470ceaad351"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Retrieved Conversation">133d430683231a10645f9470ceaad307</action_type>
+        <action_type_parent display_value="Retrieved Conversation">8a621a4683ebd610645f9470ceaad3fe</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>133d430683231a10645f9470ceaad307</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Summaries The Incident">8552e70283a31a10645f9470ceaad32f</flow>
+        <generation_source/>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-07 21:55:18</sys_created_on>
+        <sys_id>1952e70283a31a10645f9470ceaad350</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="ICS S011 OpenAI HAck">9c9b4d028367d610645f9470ceaad349</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-07 21:55:18</sys_updated_on>
+        <ui_id>9f177f7a-0b16-4a06-b941-8a0569071d99</ui_id>
+        <values>H4sIAAAAAAAA/41Sy27bMBD8F55tQY7k2PKtSBCgQNsASZNLEAgrcmkToCiGDyeu4H/v0pKcwr3kuMPZ3ZlZvvRMCbZhoilEWeTX6+KqWMAivy6XsipXOUcAUeQVmzEDLRLTIe+coHoPOiag75+sgICiXmQ8OocmZCa2DbrjkWhCeavh8Pw1Nt8pLQhkm5fXGbPgaGlAxzb9xdNXVWtoUBP1YZJ9aSMcbKp9cMpsx/rH2PQ4gURNIhYzhh8BjUDaLkF7nLEWDPnp3OGMOARxb/QnsFMm0DSWyB9e/aF96zzPE1MiOeI4vJ7LegxtgOUtBCApkYfoRirfdYqjH7IQKCHqcPMvNhDubVCdGVoCNHrq7nRsza8hCXYeMN2IkOhJBNpkNWkfjcjHXff+MKm8U+aUyvioOw76XEGg7JoYkp6eRfX7IuYB+S9o1NjSxroFawmprev26rSFRLfZVlORSd29kzqvtiYDnhxmdALI7gi/PcHP4FSy+5PGUHNa92TUW8Tv6duURYW5rFZzKNcwL7mAeSWknDfr5VWRLyUW5YodZ8wf/I0G7z+DogvVbzHZHGIbA6qHjFMLd8qGbyRqj2MWx9e/luoEZWUDAAA=</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Summaries The Incident">8552e70283a31a10645f9470ceaad32f</flow>
+        <generation_source/>
+        <order>3</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-07 21:55:19</sys_created_on>
+        <sys_id>5552e70283a31a10645f9470ceaad352</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="ICS S011 OpenAI HAck">9c9b4d028367d610645f9470ceaad349</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-07 21:55:19</sys_updated_on>
+        <ui_id>f6370233-2e6b-4d83-8ce1-f9b51d267c7e</ui_id>
+        <values>H4sIAAAAAAAA/+VVTU/jMBD9K8jnNEqatkBvK6pKSCxIsMuFRdHEnrSWnI91bKAb9b/vJHHaqCAWJC7V9ub58nsvb+qHmknB5myCIgjPwxmPwigaB8H4bBImsygJxyICxJB5LIcMqVIjL7Sg8xMo2wTq+mcpwKCIQ59brTE32y3lhaxKBZt7V0YRvpZKUJ7NHx49VoKmiQY1m9cHqY9CUpCgotLbHtMhRrMpm7MouM0IVyz74JXrXLjMyeWCMtTUwAkDj+GLwVwgAUlBVeixDHJiWegNmxttKaARxE2uNruKtcxNRzSDl0r+oZsnQVOXIjHjToTdMXYCdeF0AQbuaDI3Vu/0KiTHqtNEYApWmYthrCu4KY0s8q7FQKL67kLZLL/uFGG7AYPvYSsCgWXDs0He0Urv1sXzbQ9yKfNWEkdRFRzU7gTGaJlY08CpGSpsNc6gLGW+iktdPMm2maBk/krRwU9V8Ux3VnKV+8Ab3D6pCv6S4os2fA9aNiS+0xhq3nqs2lQXCqpqT4U0jH/bBklHzFGIWxVaCeLWCU0z17I03+iqJ3TAt54zfTJ9z2H8fG+owcy98WXOZavcK69f7jOf8/wHEPWe/9F+6bcROtu/il0Ne0+uu4Qz/fTLTH92TKZ3NI7e9f/yejB+99904KTW3tXA5wS8HUywf9kgiERdh+enAmans1E0TdLRJImmIzjjkxGIMEjwdMrpHr+wprQG5FuvwZfM/NxufUCBfreWEpWo3pCkXyzMiIzBuJPoYLlc8uTeJXevypdtWDgL2t8R7dl/87g8/gXGFJFAUwkAAA==</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="OpenAI action">230dfd0a836bd610645f9470ceaad35b</action_type>
+        <action_type_parent display_value="OpenAI action">fe77ddc283a7d610645f9470ceaad385</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>230dfd0a836bd610645f9470ceaad35b</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Summaries The Incident">8552e70283a31a10645f9470ceaad32f</flow>
+        <generation_source/>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-07 21:55:18</sys_created_on>
+        <sys_id>9552e70283a31a10645f9470ceaad351</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="ICS S011 OpenAI HAck">9c9b4d028367d610645f9470ceaad349</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-07 22:06:24</sys_updated_on>
+        <ui_id>197da676-35bf-4b35-a8c4-ad10be75c6c3</ui_id>
+        <values>H4sIAAAAAAAA/+1VS4/TSBD+Ky2fY8tO4kdyg2FBSLuwuwNcEIrK7eqkRdtt+jGQjfzfqY6dTMQMCKRBe5lDDlX+6tFfVX15f4hkE60jrNNGNClUi6JuiiwtlrlYLcuUI0CzyJtoFnXQIiF7o9veZeS4AeWD59q3LRj5HzK3Qya0Uvqz7LaM6+4GjQUndTdjO7ndKfq58Okj7lmDDqSyMwY8ICxz8BEJCF3DtHdct2gT9hQskt0dc1PtG9mQTakdfnEzxg2CQwas1QaZ0bW3jtljQ3sKAccMCoXc2WMCHlDSWo9U16DVyofazDrs7Vgauv30htj35960oX65tMFI2B+d9QbH/CHtqaC0jCsEMwsNEhrHlFPbltrkeocGO8c6MIaYuUGmxTFHIy33NhRIiFuyegX7d48U/zaK+U6qhoDR+v2HWdSDof12aKL14ZtPP3sgCmpUBP37eCH3XYzb98FhnaEJTfafU9T1yalNE7rIZhHRjx3NIloLUPTSqKWngtNmf/bQbJrXnbp17GTnKFsUwF8sbUy0rtI0DUgRaOE4fj2bm2nVRrd4Bg6oFc8d0T/6+E5LjnYko0EBXrmrS98IeN2HOY4hDmp1iqYFaLtXIxXROcFps8njLTWBfXhq6H16iLje6c//nrp8LrsjK9NHpTmoswWOuKu9C/0cIi/ffEPz6LlDNCpsqeKmhb4nz2baIapCTbfJVpGRCNpS6s7KbZeMm5rQCCB5Tv5nR/c7Oszw3L8oDQWHcm87+cnjy7A381JUWPMqztMii5d8XsUVQh5DCXkhOIo0raJhFtm9vVJg7S1RNKHNJx+eOdI2EbQZOQ4h3MjePeFhxScuhtmk50W5EBVU82qB96wr5LfbSSdK47iQ86sLTWGHw0pkZSlKiNM6K+IlpEVcr5ZZXEGaF6u0zJrVKrnUoWGgyRlHxzw2GNKsKdHbnojDZpMl3JtwoIkNuM0Fbhhe+bZG8x18d/w4DFegFIECVd9B8iNiI5skvHIYntgwqTBt9sJoEp37w+AM22wDbIoOAjNmYE7/MJRcTk9Rd1X8kdkHY/bXxPsnruEk3v94JHm9ex2/It3zB5PubJ7lZT7PVvNHAf+fBJz+7pdps2jiIi/LIOAYV2Ul4lIAz8qshDmWDyjgH74CGb+t8ZILAAA=</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=8552e70283a31a10645f9470ceaad32f"/>
+    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=8552e70283a31a10645f9470ceaad32f"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=8552e70283a31a10645f9470ceaad32f"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=8552e70283a31a10645f9470ceaad32f"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>changed_fields</element>
+        <help/>
+        <hint/>
+        <label>Changed Fields</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_8552e70283a31a10645f9470ceaad32f</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-07 21:55:18</sys_created_on>
+        <sys_id>1552e70283a31a10645f9470ceaad343</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="ICS S011 OpenAI HAck" source="x_869151_ics_s011">9c9b4d028367d610645f9470ceaad349</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ICS S011 OpenAI HAck">9c9b4d028367d610645f9470ceaad349</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-07 21:55:18</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_8552e70283a31a10645f9470ceaad32f</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-07 21:55:18</sys_created_on>
+        <sys_id>9952e70283a31a10645f9470ceaad349</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="ICS S011 OpenAI HAck" source="x_869151_ics_s011">9c9b4d028367d610645f9470ceaad349</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ICS S011 OpenAI HAck">9c9b4d028367d610645f9470ceaad349</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-07 21:55:18</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_8552e70283a31a10645f9470ceaad32f</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-07 21:55:18</sys_created_on>
+        <sys_id>d952e70283a31a10645f9470ceaad33c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="ICS S011 OpenAI HAck" source="x_869151_ics_s011">9c9b4d028367d610645f9470ceaad349</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ICS S011 OpenAI HAck">9c9b4d028367d610645f9470ceaad349</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-07 21:55:18</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_8552e70283a31a10645f9470ceaad32f"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_8552e70283a31a10645f9470ceaad32f"/>
+    <sys_hub_flow action="UPDATE">
+        <sys_id>57fb0e4e83abd610645f9470ceaad320</sys_id>
+        <latest_snapshot>8552e70283a31a10645f9470ceaad32f</latest_snapshot>
+        <compiler_build>glide-yokohama-12-18-2024__patch0-01-14-2025_01-22-2025_0439.zip</compiler_build>
+    </sys_hub_flow>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=57fb0e4e83abd610645f9470ceaad320^sys_idNOT IN2152e70283a31a10645f9470ceaad38a"/>
+    <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
+        <binding_strategy>com.snc.process_flow.engine.binding.OncePerRecord</binding_strategy>
+        <plan>{"type":"PlanProxy","persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"2152e70283a31a10645f9470ceaad38a","name":"plan","plan_signature":null}}</plan>
+        <plan_id>57fb0e4e83abd610645f9470ceaad320</plan_id>
+        <snapshot>8552e70283a31a10645f9470ceaad32f</snapshot>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-07 21:55:20</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>2152e70283a31a10645f9470ceaad38a</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-07 22:06:25</sys_updated_on>
+        <trigger display_value="">ed52e70283a31a10645f9470ceaad387</trigger>
+    </sys_flow_trigger_plan>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=57fb0e4e83abd610645f9470ceaad320"/>
+</record_update>
