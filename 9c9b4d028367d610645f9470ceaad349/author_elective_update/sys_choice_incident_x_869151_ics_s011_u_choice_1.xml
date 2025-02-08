@@ -1,0 +1,665 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="x_869151_ics_s011_u_choice_1" table="incident" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>x_869151_ics_s011_u_choice_1</element>
+            <name>incident</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-02-08 04:12:05</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_869151_ics_s011_u_choice_1</sys_name>
+            <sys_package display_value="ICS S011 OpenAI HAck" source="x_869151_ics_s011">9c9b4d028367d610645f9470ceaad349</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="ICS S011 OpenAI HAck">9c9b4d028367d610645f9470ceaad349</sys_scope>
+            <sys_update_name>sys_choice_incident_x_869151_ics_s011_u_choice_1</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-02-08 04:12:05</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>x_869151_ics_s011_u_choice_1</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>English</label>
+            <language>en</language>
+            <name>incident</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-02-08 04:12:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-02-08 04:12:05</sys_updated_on>
+            <value>english</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>x_869151_ics_s011_u_choice_1</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>French</label>
+            <language>en</language>
+            <name>incident</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-02-08 04:12:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-02-08 04:12:05</sys_updated_on>
+            <value>french</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>x_869151_ics_s011_u_choice_1</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>German</label>
+            <language>en</language>
+            <name>incident</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-02-08 04:12:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-02-08 04:12:05</sys_updated_on>
+            <value>german</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>x_869151_ics_s011_u_choice_1</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Spanish</label>
+            <language>en</language>
+            <name>incident</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-02-08 04:12:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-02-08 04:12:05</sys_updated_on>
+            <value>spanish</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>x_869151_ics_s011_u_choice_1</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Italian</label>
+            <language>en</language>
+            <name>incident</name>
+            <sequence>4</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-02-08 04:12:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-02-08 04:12:05</sys_updated_on>
+            <value>italian</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>x_869151_ics_s011_u_choice_1</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Portuguese</label>
+            <language>en</language>
+            <name>incident</name>
+            <sequence>5</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-02-08 04:12:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-02-08 04:12:05</sys_updated_on>
+            <value>portuguese</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>x_869151_ics_s011_u_choice_1</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Dutch</label>
+            <language>en</language>
+            <name>incident</name>
+            <sequence>6</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-02-08 04:12:06</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-02-08 04:12:06</sys_updated_on>
+            <value>dutch</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>x_869151_ics_s011_u_choice_1</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Russian</label>
+            <language>en</language>
+            <name>incident</name>
+            <sequence>7</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-02-08 04:12:06</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-02-08 04:12:06</sys_updated_on>
+            <value>russian</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>x_869151_ics_s011_u_choice_1</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Chinese</label>
+            <language>en</language>
+            <name>incident</name>
+            <sequence>8</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-02-08 04:12:06</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-02-08 04:12:06</sys_updated_on>
+            <value>chinese</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>x_869151_ics_s011_u_choice_1</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Japanese</label>
+            <language>en</language>
+            <name>incident</name>
+            <sequence>9</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-02-08 04:12:06</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-02-08 04:12:06</sys_updated_on>
+            <value>japanese</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>x_869151_ics_s011_u_choice_1</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Korean</label>
+            <language>en</language>
+            <name>incident</name>
+            <sequence>10</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-02-08 04:12:06</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-02-08 04:12:06</sys_updated_on>
+            <value>korean</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>x_869151_ics_s011_u_choice_1</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Arabic</label>
+            <language>en</language>
+            <name>incident</name>
+            <sequence>11</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-02-08 04:12:06</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-02-08 04:12:06</sys_updated_on>
+            <value>arabic</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>x_869151_ics_s011_u_choice_1</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Hindi</label>
+            <language>en</language>
+            <name>incident</name>
+            <sequence>12</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-02-08 04:12:06</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-02-08 04:12:06</sys_updated_on>
+            <value>hindi</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>x_869151_ics_s011_u_choice_1</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Bengali</label>
+            <language>en</language>
+            <name>incident</name>
+            <sequence>13</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-02-08 04:12:06</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-02-08 04:12:06</sys_updated_on>
+            <value>bengali</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>x_869151_ics_s011_u_choice_1</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Tamil</label>
+            <language>en</language>
+            <name>incident</name>
+            <sequence>14</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-02-08 04:12:06</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-02-08 04:12:06</sys_updated_on>
+            <value>tamil</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>x_869151_ics_s011_u_choice_1</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Telugu</label>
+            <language>en</language>
+            <name>incident</name>
+            <sequence>15</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-02-08 04:12:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-02-08 04:12:07</sys_updated_on>
+            <value>telugu</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>x_869151_ics_s011_u_choice_1</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Malayalam</label>
+            <language>en</language>
+            <name>incident</name>
+            <sequence>16</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-02-08 04:12:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-02-08 04:12:07</sys_updated_on>
+            <value>malayalam</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>x_869151_ics_s011_u_choice_1</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Urdu</label>
+            <language>en</language>
+            <name>incident</name>
+            <sequence>17</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-02-08 04:12:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-02-08 04:12:07</sys_updated_on>
+            <value>urdu</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>x_869151_ics_s011_u_choice_1</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Indonesian</label>
+            <language>en</language>
+            <name>incident</name>
+            <sequence>18</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-02-08 04:12:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-02-08 04:12:07</sys_updated_on>
+            <value>indonesian</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>x_869151_ics_s011_u_choice_1</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Thai</label>
+            <language>en</language>
+            <name>incident</name>
+            <sequence>19</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-02-08 04:12:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-02-08 04:12:07</sys_updated_on>
+            <value>thai</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>x_869151_ics_s011_u_choice_1</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Vietnamese</label>
+            <language>en</language>
+            <name>incident</name>
+            <sequence>20</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-02-08 04:12:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-02-08 04:12:07</sys_updated_on>
+            <value>vietnamese</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>x_869151_ics_s011_u_choice_1</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Hebrew</label>
+            <language>en</language>
+            <name>incident</name>
+            <sequence>21</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-02-08 04:12:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-02-08 04:12:07</sys_updated_on>
+            <value>hebrew</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>x_869151_ics_s011_u_choice_1</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Greek</label>
+            <language>en</language>
+            <name>incident</name>
+            <sequence>22</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-02-08 04:12:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-02-08 04:12:07</sys_updated_on>
+            <value>greek</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>x_869151_ics_s011_u_choice_1</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Polish</label>
+            <language>en</language>
+            <name>incident</name>
+            <sequence>23</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-02-08 04:12:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-02-08 04:12:07</sys_updated_on>
+            <value>polish</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>x_869151_ics_s011_u_choice_1</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Turkish</label>
+            <language>en</language>
+            <name>incident</name>
+            <sequence>24</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-02-08 04:12:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-02-08 04:12:07</sys_updated_on>
+            <value>turkish</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>x_869151_ics_s011_u_choice_1</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Ukrainian</label>
+            <language>en</language>
+            <name>incident</name>
+            <sequence>25</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-02-08 04:12:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-02-08 04:12:07</sys_updated_on>
+            <value>ukrainian</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>x_869151_ics_s011_u_choice_1</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Swedish</label>
+            <language>en</language>
+            <name>incident</name>
+            <sequence>26</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-02-08 04:12:08</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-02-08 04:12:08</sys_updated_on>
+            <value>swedish</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>x_869151_ics_s011_u_choice_1</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Romanian</label>
+            <language>en</language>
+            <name>incident</name>
+            <sequence>27</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-02-08 04:12:08</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-02-08 04:12:08</sys_updated_on>
+            <value>romanian</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>x_869151_ics_s011_u_choice_1</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Czech</label>
+            <language>en</language>
+            <name>incident</name>
+            <sequence>28</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-02-08 04:12:08</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-02-08 04:12:08</sys_updated_on>
+            <value>czech</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>x_869151_ics_s011_u_choice_1</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Hungarian</label>
+            <language>en</language>
+            <name>incident</name>
+            <sequence>29</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-02-08 04:12:08</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-02-08 04:12:08</sys_updated_on>
+            <value>hungarian</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>x_869151_ics_s011_u_choice_1</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Finnish</label>
+            <language>en</language>
+            <name>incident</name>
+            <sequence>30</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-02-08 04:12:08</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-02-08 04:12:08</sys_updated_on>
+            <value>finnish</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>x_869151_ics_s011_u_choice_1</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Danish</label>
+            <language>en</language>
+            <name>incident</name>
+            <sequence>31</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-02-08 04:12:08</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-02-08 04:12:08</sys_updated_on>
+            <value>danish</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>x_869151_ics_s011_u_choice_1</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Norwegian</label>
+            <language>en</language>
+            <name>incident</name>
+            <sequence>32</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-02-08 04:12:08</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-02-08 04:12:08</sys_updated_on>
+            <value>norwegian</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>x_869151_ics_s011_u_choice_1</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Filipino</label>
+            <language>en</language>
+            <name>incident</name>
+            <sequence>33</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-02-08 04:12:08</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-02-08 04:12:08</sys_updated_on>
+            <value>filipino</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

@@ -1,0 +1,2833 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <action_status/>
+        <action_template/>
+        <active>true</active>
+        <annotation/>
+        <attributes>{labelCacheCleanUpExecuted=true}</attributes>
+        <authored_on_release_version>27000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>OpenAI action</description>
+        <flow_priority/>
+        <ih_action>true</ih_action>
+        <internal_name>openai_action</internal_name>
+        <label_cache>[{"name":"{{action.model}}","label":"action➛MODEL","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.variab}}","label":"action➛variab","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.prompt}}","label":"action➛PROMPT","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.result}}","label":"action➛Query","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceUiUniqueId":"","sourceType":"","uiType":"string","uiUniqueId":"6bd40d3d-6577-4c2e-878f-7fac1717a2e7"}},{"name":"{{action.prompt1}}","label":"action➛Prompt","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[20905ac4-6039-402d-a2c7-4ea0e753854a].response_body}}","label":"step➛REST step➛Response Body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"hidden_for":"DATASTREAM"}},{"name":"{{step[79238e6b-6824-4cbb-bd5c-71d13b2cdb90].__step_status__.message}}","label":"step➛JSON Parser step➛Step Status➛Message","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[79238e6b-6824-4cbb-bd5c-71d13b2cdb90].root.object}}","label":"step➛JSON Parser step➛root➛object","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[79238e6b-6824-4cbb-bd5c-71d13b2cdb90].root.choices}}","label":"step➛JSON Parser step➛root➛choices","type":"step","ref":"","reference_display":"","base_type":"array.string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[79238e6b-6824-4cbb-bd5c-71d13b2cdb90].variable.variable_child1}}","label":"step➛JSON Parser step➛variable➛variable_child1","type":"step","ref":"","reference_display":"","base_type":"array.string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[79238e6b-6824-4cbb-bd5c-71d13b2cdb90].Payload.output}}","label":"step➛JSON Parser step➛Payload➛output","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[79238e6b-6824-4cbb-bd5c-71d13b2cdb90].Payload.Content}}","label":"step➛JSON Parser step➛Payload➛Content","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[0c5f4af9-87cb-415d-b69c-1dd79f977608].record.api_key}}","label":"step➛Look Up Record step➛API Key Credentials Record➛API Key","type":"step","ref":"","reference_display":"API Key","base_type":"password2","parent_table_name":"api_key_credentials","column_name":"api_key","choices":null,"attributes":{}}]</label_cache>
+        <master_snapshot>230dfd0a836bd610645f9470ceaad35b</master_snapshot>
+        <master_snapshot_digest/>
+        <name>OpenAI action</name>
+        <natlang/>
+        <outputs/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <state>published</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-07 11:48:40</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>fe77ddc283a7d610645f9470ceaad385</sys_id>
+        <sys_mod_count>70</sys_mod_count>
+        <sys_name>OpenAI action</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="ICS S011 OpenAI HAck" source="x_869151_ics_s011">9c9b4d028367d610645f9470ceaad349</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ICS S011 OpenAI HAck">9c9b4d028367d610645f9470ceaad349</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_fe77ddc283a7d610645f9470ceaad385</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-08 01:20:18</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_definition>
+    <sys_translated_text action="delete_multiple" query="documentkey=fe77ddc283a7d610645f9470ceaad385"/>
+    <sys_variable_value action="delete_multiple" query="document_key=fe77ddc283a7d610645f9470ceaad385"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_definition</document>
+        <document_key>fe77ddc283a7d610645f9470ceaad385</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-07 11:54:23</sys_created_on>
+        <sys_id>bec8d90a83a7d610645f9470ceaad368</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-07 11:54:23</sys_updated_on>
+        <value>{"version":"1.0","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"794bc342-9c9d-444b-a3f2-dd4b6a5a0173\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}},"serializationFormat":"JSON"}</value>
+        <variable display_value="Action Status">dec8d90a83a7d610645f9470ceaad319</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_definition</document>
+        <document_key>fe77ddc283a7d610645f9470ceaad385</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-07 11:54:23</sys_created_on>
+        <sys_id>fac8d90a83a7d610645f9470ceaad368</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-07 11:54:23</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Don't Treat as Error">e2c8d90a83a7d610645f9470ceaad338</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=fe77ddc283a7d610645f9470ceaad385"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>cleanoutforen</field>
+        <id>fe77ddc283a7d610645f9470ceaad385</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-08 00:44:05</sys_created_on>
+        <sys_id>a9f8005683671a10645f9470ceaad34b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-08 00:44:05</sys_updated_on>
+        <table>var__m_sys_hub_action_output_fe77ddc283a7d610645f9470ceaad385</table>
+        <value>{{step[f404677a-b53f-4f02-99be-8bb98bbc58a1].outputsummaries}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>outputai</field>
+        <id>fe77ddc283a7d610645f9470ceaad385</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-07 14:30:54</sys_created_on>
+        <sys_id>979c750a836bd610645f9470ceaad305</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-08 00:44:05</sys_updated_on>
+        <table>var__m_sys_hub_action_output_fe77ddc283a7d610645f9470ceaad385</table>
+        <value>{{step[79238e6b-6824-4cbb-bd5c-71d13b2cdb90].Payload.Content}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>outputfromopenai</field>
+        <id>fe77ddc283a7d610645f9470ceaad385</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-07 14:12:53</sys_created_on>
+        <sys_id>af7831c2836bd610645f9470ceaad38c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-07 14:12:53</sys_updated_on>
+        <table>var__m_sys_hub_action_output_fe77ddc283a7d610645f9470ceaad385</table>
+        <value>{{step[79238e6b-6824-4cbb-bd5c-71d13b2cdb90].Payload.output}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>summary</field>
+        <id>fe77ddc283a7d610645f9470ceaad385</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-07 12:07:43</sys_created_on>
+        <sys_id>0edb5d0e83a7d610645f9470ceaad3d3</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-07 13:39:21</sys_updated_on>
+        <table>var__m_sys_hub_action_output_fe77ddc283a7d610645f9470ceaad385</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>variable</field>
+        <id>fe77ddc283a7d610645f9470ceaad385</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-07 14:04:32</sys_created_on>
+        <sys_id>99967502836bd610645f9470ceaad3fa</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-07 14:11:56</sys_updated_on>
+        <table>var__m_sys_hub_action_output_fe77ddc283a7d610645f9470ceaad385</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>__action_status__</field>
+        <id>fe77ddc283a7d610645f9470ceaad385</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-07 11:54:23</sys_created_on>
+        <sys_id>7ac8d90a83a7d610645f9470ceaad368</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-07 11:54:23</sys_updated_on>
+        <table>var__m_sys_hub_action_output_fe77ddc283a7d610645f9470ceaad385</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>__dont_treat_as_error__</field>
+        <id>fe77ddc283a7d610645f9470ceaad385</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-07 11:54:23</sys_created_on>
+        <sys_id>b6c8d90a83a7d610645f9470ceaad368</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-07 11:54:23</sys_updated_on>
+        <table>var__m_sys_hub_action_output_fe77ddc283a7d610645f9470ceaad385</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_step_instance action="delete_multiple" query="action=fe77ddc283a7d610645f9470ceaad385^sys_idNOT IN5c3bddca83a7d610645f9470ceaad344,71c8990a83a7d610645f9470ceaad3f8,f06df54a836bd610645f9470ceaad3a5"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="OpenAI action">fe77ddc283a7d610645f9470ceaad385</action>
+        <cid>79238e6b-6824-4cbb-bd5c-71d13b2cdb90</cid>
+        <error_handling_type>2</error_handling_type>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>JSON Parser step</label>
+        <order>3</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="JSON Parser">502328c387523300f917e55936cb0bf0</step_type>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-07 12:04:53</sys_created_on>
+        <sys_id>5c3bddca83a7d610645f9470ceaad344</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_scope display_value="ICS S011 OpenAI HAck">9c9b4d028367d610645f9470ceaad349</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-07 14:34:17</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=5c3bddca83a7d610645f9470ceaad344"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>5c3bddca83a7d610645f9470ceaad344</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-07 12:04:54</sys_created_on>
+        <sys_id>303bddca83a7d610645f9470ceaad354</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-07 14:30:17</sys_updated_on>
+        <value>{"name":"Payload","children":[{"name":"Content","children":[],"type":"string","jpath":"$.choices[0].message.content","previewValue":"Yes, Azure OpenAI Service supports customer-managed keys (CMK) for encrypting data at rest. This allows organizations to have more control over their encryption keys and comply with specific regulatory requirements. By using Azure Key Vault, customers can manage their own keys, and these keys can be used to encrypt the data processed by the Azure OpenAI Service.\n\nTo implement customer-managed keys, you typically need to configure your Azure storage account or other services used in conjunction with Azure OpenAI to use the keys stored in Azure Key Vault. Be sure to refer to the official Azure documentation for specific instructions on how to set up and manage customer-managed keys with Azure OpenAI.\n\nFor the most up-to-date information, features, and configurations, always check Azure's official documentation or service updates."}],"type":"object","jpath":"$","previewValue":"{\"choices\":[{\"content_filter_results\":{\"hate\":{\"filtered\":false,\"severity\":\"safe\"},\"protected_material_text\":{\"filtered\":false,\"detected\":false},\"self_harm\":{\"filtered\":false,\"severity\":\"safe\"},\"sexual\":{\"filtered\":false,\"severity\":\"safe\"},\"violence\":{\"filtered\":false,\"severity\":\"safe\"}},\"finish_reason\":\"stop\",\"index\":0,\"logprobs\":null,\"message\":{\"content\":\"Yes, Azure OpenAI Service supports customer-managed keys (CMK) for encrypting data at rest. This allows organizations to have more control over their encryption keys and comply with specific regulatory requirements. By using Azure Key Vault, customers can manage their own keys, and these keys can be used to encrypt the data processed by the Azure OpenAI Service.\\n\\nTo implement customer-managed keys, you typically need to configure your Azure storage account or other services used in conjunction with Azure OpenAI to use the keys stored in Azure Key Vault. Be sure to refer to the official Azure documentation for specific instructions on how to set up and manage customer-managed keys with Azure OpenAI.\\n\\nFor the most up-to-date information, features, and configurations, always check Azure's official documentation or service updates.\",\"refusal\":null,\"role\":\"assistant\"}}],\"created\":1738937318,\"id\":\"chatcmpl-AyJK2uwb1PnIbwZT12FMHtdKgUvRL\",\"model\":\"gpt-4o-mini-2024-07-18\",\"object\":\"chat.completion\",\"prompt_filter_results\":[{\"prompt_index\":0,\"content_filter_results\":{\"hate\":{\"filtered\":false,\"severity\":\"safe\"},\"jailbreak\":{\"filtered\":false,\"detected\":false},\"self_harm\":{\"filtered\":false,\"severity\":\"safe\"},\"sexual\":{\"filtered\":false,\"severity\":\"safe\"},\"violence\":{\"filtered\":false,\"severity\":\"safe\"}}}],\"system_fingerprint\":\"fp_f3927aa00d\",\"usage\":{\"completion_tokens\":155,\"completion_tokens_details\":{\"accepted_prediction_tokens\":0,\"audio_tokens\":0,\"reasoning_tokens\":0,\"rejected_prediction_tokens\":0},\"prompt_tokens\":26,\"prompt_tokens_details\":{\"audio_tokens\":0,\"cached_tokens\":0},\"total_tokens\":181}}"}</value>
+        <variable display_value="Target">4674240787523300f917e55936cb0b0e</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>5c3bddca83a7d610645f9470ceaad344</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-07 12:04:54</sys_created_on>
+        <sys_id>b43bddca83a7d610645f9470ceaad354</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-07 12:04:54</sys_updated_on>
+        <value>structured</value>
+        <variable display_value="Payload view">95d4280787523300f917e55936cb0bfe</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>5c3bddca83a7d610645f9470ceaad344</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-07 12:04:54</sys_created_on>
+        <sys_id>f03bddca83a7d610645f9470ceaad354</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-07 14:30:17</sys_updated_on>
+        <value>{"choices":[{"content_filter_results":{"hate":{"filtered":false,"severity":"safe"},"protected_material_text":{"filtered":false,"detected":false},"self_harm":{"filtered":false,"severity":"safe"},"sexual":{"filtered":false,"severity":"safe"},"violence":{"filtered":false,"severity":"safe"}},"finish_reason":"stop","index":0,"logprobs":null,"message":{"content":"Yes, Azure OpenAI Service supports customer-managed keys (CMK) for encrypting data at rest. This allows organizations to have more control over their encryption keys and comply with specific regulatory requirements. By using Azure Key Vault, customers can manage their own keys, and these keys can be used to encrypt the data processed by the Azure OpenAI Service.\n\nTo implement customer-managed keys, you typically need to configure your Azure storage account or other services used in conjunction with Azure OpenAI to use the keys stored in Azure Key Vault. Be sure to refer to the official Azure documentation for specific instructions on how to set up and manage customer-managed keys with Azure OpenAI.\n\nFor the most up-to-date information, features, and configurations, always check Azure's official documentation or service updates.","refusal":null,"role":"assistant"}}],"created":1738937318,"id":"chatcmpl-AyJK2uwb1PnIbwZT12FMHtdKgUvRL","model":"gpt-4o-mini-2024-07-18","object":"chat.completion","prompt_filter_results":[{"prompt_index":0,"content_filter_results":{"hate":{"filtered":false,"severity":"safe"},"jailbreak":{"filtered":false,"detected":false},"self_harm":{"filtered":false,"severity":"safe"},"sexual":{"filtered":false,"severity":"safe"},"violence":{"filtered":false,"severity":"safe"}}}],"system_fingerprint":"fp_f3927aa00d","usage":{"completion_tokens":155,"completion_tokens_details":{"accepted_prediction_tokens":0,"audio_tokens":0,"reasoning_tokens":0,"rejected_prediction_tokens":0},"prompt_tokens":26,"prompt_tokens_details":{"audio_tokens":0,"cached_tokens":0},"total_tokens":181}}&#13;
+</value>
+        <variable display_value="Sample payload">d335ac0787523300f917e55936cb0b1d</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_5c3bddca83a7d610645f9470ceaad344^id=5c3bddca83a7d610645f9470ceaad344"/>
+    <sys_element_mapping action="delete_multiple" query="id=5c3bddca83a7d610645f9470ceaad344"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>payload_view</field>
+        <id>5c3bddca83a7d610645f9470ceaad344</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-07 12:04:54</sys_created_on>
+        <sys_id>f83bddca83a7d610645f9470ceaad353</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-07 12:04:54</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_502328c387523300f917e55936cb0bf0</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>sample_payload</field>
+        <id>5c3bddca83a7d610645f9470ceaad344</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-07 12:04:54</sys_created_on>
+        <sys_id>bc3bddca83a7d610645f9470ceaad353</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-07 12:04:54</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_502328c387523300f917e55936cb0bf0</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>source_data</field>
+        <id>5c3bddca83a7d610645f9470ceaad344</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-07 12:04:54</sys_created_on>
+        <sys_id>383bddca83a7d610645f9470ceaad353</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-07 12:04:54</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_502328c387523300f917e55936cb0bf0</table>
+        <value>{{step[20905ac4-6039-402d-a2c7-4ea0e753854a].response_body}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>target_schema</field>
+        <id>5c3bddca83a7d610645f9470ceaad344</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-07 12:04:54</sys_created_on>
+        <sys_id>743bddca83a7d610645f9470ceaad353</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-07 12:04:54</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_502328c387523300f917e55936cb0bf0</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_translated_text action="delete_multiple" query="documentkey=5c3bddca83a7d610645f9470ceaad344"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=5c3bddca83a7d610645f9470ceaad344"/>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=5c3bddca83a7d610645f9470ceaad344^sys_idNOT IN9148f982836bd610645f9470ceaad388"/>
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FD9a7c710a596bd61087c577630dbf8bf5</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>9c9b4d028367d610645f9470ceaad349</scope_name>
+        <serialized_content>{"FlowDesigner:FD9a7c710a596bd61087c577630dbf8bf5":{"Content":"String","Content.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"Content\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\",\"uiUniqueId\":\"dadc16c7-2864-45d5-ae99-6740ed9e565c\"}"}},"FlowDesigner:FD9a7c710a596bd61087c577630dbf8bf5.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"Payload\",\"mandatory\":\"false\",\"uiUniqueId\":\"3f66880b-97e9-4bd4-9d9b-16f5ae5fad1f\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FD9a7c710a596bd61087c577630dbf8bf5\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":\"\",\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-07 14:30:17</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>5e7c710a836bd610645f9470ceaad3f5</sys_id>
+        <sys_mod_count>20</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ICS S011 OpenAI HAck">9c9b4d028367d610645f9470ceaad349</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-08 01:20:15</sys_updated_on>
+        <type>complex_object_schema</type>
+    </sys_complex_object>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>co_type_name=FD9a7c710a596bd61087c577630dbf8bf5,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=3f66880b-97e9-4bd4-9d9b-16f5ae5fad1f</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>Payload</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Payload</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="JSON Parser step">5c3bddca83a7d610645f9470ceaad344</model>
+        <model_id>5c3bddca83a7d610645f9470ceaad344</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_5c3bddca83a7d610645f9470ceaad344</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-07 14:11:55</sys_created_on>
+        <sys_id>9148f982836bd610645f9470ceaad388</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ICS S011 OpenAI HAck">9c9b4d028367d610645f9470ceaad349</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-07 14:30:17</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=5c3bddca83a7d610645f9470ceaad344^sys_idNOT INb03bddca83a7d610645f9470ceaad352"/>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <input_name>source_data</input_name>
+        <instance>5c3bddca83a7d610645f9470ceaad344</instance>
+        <referenced_table>sys_hub_step_instance</referenced_table>
+        <script>{"source_data":{"scriptActive":false}}</script>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-07 12:04:54</sys_created_on>
+        <sys_id>b03bddca83a7d610645f9470ceaad352</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-07 12:04:54</sys_updated_on>
+    </sys_hub_input_scripts>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>Payload</element>
+        <help/>
+        <hint/>
+        <label>Payload</label>
+        <language>en</language>
+        <name>var__m_sys_hub_step_ext_output_5c3bddca83a7d610645f9470ceaad344</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-07 14:11:55</sys_created_on>
+        <sys_id>dd48f982836bd610645f9470ceaad38a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="ICS S011 OpenAI HAck" source="x_869151_ics_s011">9c9b4d028367d610645f9470ceaad349</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ICS S011 OpenAI HAck">9c9b4d028367d610645f9470ceaad349</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-07 14:11:55</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="OpenAI action">fe77ddc283a7d610645f9470ceaad385</action>
+        <cid>20905ac4-6039-402d-a2c7-4ea0e753854a</cid>
+        <error_handling_type>1</error_handling_type>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>REST step</label>
+        <order>2</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="REST">07a762fb47222200b4fad7527c9a7129</step_type>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-07 11:54:20</sys_created_on>
+        <sys_id>71c8990a83a7d610645f9470ceaad3f8</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_scope display_value="ICS S011 OpenAI HAck">9c9b4d028367d610645f9470ceaad349</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-07 14:35:30</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=71c8990a83a7d610645f9470ceaad3f8"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>71c8990a83a7d610645f9470ceaad3f8</document_key>
+        <order>5</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-07 11:56:11</sys_created_on>
+        <sys_id>0139554a83a7d610645f9470ceaad390</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-07 11:56:11</sys_updated_on>
+        <value>define_connection_inline</value>
+        <variable display_value="Connection">91e207d03b50030057a4a2e334efc4a0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>71c8990a83a7d610645f9470ceaad3f8</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-07 11:55:02</sys_created_on>
+        <sys_id>08f89d0a83a7d610645f9470ceaad3d8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-07 11:55:02</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Override Base URL">8e4f451f5b010110ab933520b881c72c</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>71c8990a83a7d610645f9470ceaad3f8</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-07 11:54:21</sys_created_on>
+        <sys_id>12c8d90a83a7d610645f9470ceaad314</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-07 11:54:21</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Honor Duplicate Headers">15288f755bd24110ab933520b881c713</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>71c8990a83a7d610645f9470ceaad3f8</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-07 11:54:21</sys_created_on>
+        <sys_id>12c8d90a83a7d610645f9470ceaad316</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-07 11:54:21</sys_updated_on>
+        <value/>
+        <variable display_value="Connection Timeout">7a59009bc7522010820469467ec260c0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>71c8990a83a7d610645f9470ceaad3f8</document_key>
+        <order>30</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-07 11:54:21</sys_created_on>
+        <sys_id>16c8d90a83a7d610645f9470ceaad315</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-07 14:35:30</sys_updated_on>
+        <value>{}</value>
+        <variable display_value="Headers">371837f1c71003007b237f48cb9763b0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>71c8990a83a7d610645f9470ceaad3f8</document_key>
+        <order>45</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-07 11:54:21</sys_created_on>
+        <sys_id>1ac8d90a83a7d610645f9470ceaad314</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-07 11:57:40</sys_updated_on>
+        <value/>
+        <variable display_value="Request Body[Text]">6c6073f1c71003007b237f48cb97633b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>71c8990a83a7d610645f9470ceaad3f8</document_key>
+        <order>20</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-07 11:54:21</sys_created_on>
+        <sys_id>52c8d90a83a7d610645f9470ceaad315</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-07 11:56:11</sys_updated_on>
+        <value>/openai/deployments/ic11-hack-8-gpt-4o-mini/chat/completions</value>
+        <variable display_value="Resource Path">3d090af03b23320057a4a2e334efc455</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>71c8990a83a7d610645f9470ceaad3f8</document_key>
+        <order>25</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-07 11:54:21</sys_created_on>
+        <sys_id>5ec8d90a83a7d610645f9470ceaad315</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-07 11:54:21</sys_updated_on>
+        <value>{"type":"ADV_NV","value":[{"attributes":{"mandatory":false,"omit_if_empty":false},"name":"api-version","value":"2024-05-01-preview"}]}</value>
+        <variable display_value="Query Parameters">4328e2fb47222200b4fad7527c9a7164</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>71c8990a83a7d610645f9470ceaad3f8</document_key>
+        <order>12</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-07 11:54:21</sys_created_on>
+        <sys_id>9ac8d90a83a7d610645f9470ceaad315</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-07 11:54:21</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="MID Application">f11ebf865f101300a09a2abd7f466652</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>71c8990a83a7d610645f9470ceaad3f8</document_key>
+        <order>25</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-07 11:54:21</sys_created_on>
+        <sys_id>9ec8d90a83a7d610645f9470ceaad314</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-07 11:54:21</sys_updated_on>
+        <value>post</value>
+        <variable display_value="HTTP Method">e85b7ebf47222200b4fad7527c9a71e3</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>71c8990a83a7d610645f9470ceaad3f8</document_key>
+        <order>15</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-07 11:55:02</sys_created_on>
+        <sys_id>c8f89d0a83a7d610645f9470ceaad3d8</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-07 11:56:11</sys_updated_on>
+        <value>https://hac-openai-instance-01.openai.azure.com</value>
+        <variable display_value="Base URL">a67a8ef03b23320057a4a2e334efc472</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>71c8990a83a7d610645f9470ceaad3f8</document_key>
+        <order>13</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-07 11:54:21</sys_created_on>
+        <sys_id>d6c8d90a83a7d610645f9470ceaad315</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-07 11:54:21</sys_updated_on>
+        <value>18409d8007482000dada43c0d1021e8f</value>
+        <variable display_value="Capabilities">c30a451d2f201300a09a839fb18c95b4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>71c8990a83a7d610645f9470ceaad3f8</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-07 11:54:21</sys_created_on>
+        <sys_id>dac8d90a83a7d610645f9470ceaad314</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-07 11:54:21</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Honor Duplicate Query Params">58715a1c53f22010d3a8ddeeff7b1248</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=71c8990a83a7d610645f9470ceaad3f8"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>application</field>
+        <id>71c8990a83a7d610645f9470ceaad3f8</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-07 11:54:21</sys_created_on>
+        <sys_id>1ac8d90a83a7d610645f9470ceaad313</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-07 11:54:21</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>base_url</field>
+        <id>71c8990a83a7d610645f9470ceaad3f8</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-07 11:55:02</sys_created_on>
+        <sys_id>c8f89d0a83a7d610645f9470ceaad3d7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-07 11:55:02</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>body</field>
+        <id>71c8990a83a7d610645f9470ceaad3f8</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-07 11:54:21</sys_created_on>
+        <sys_id>96c8d90a83a7d610645f9470ceaad312</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-07 11:57:40</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value>{
+ 
+    "messages": [
+ 
+        {
+ 
+            "role": "system",
+ 
+            "content": "{{action.prompt1}}"
+ 
+        },
+ 
+        {
+ 
+            "role": "user",
+ 
+            "content": "{{action.result}}"
+ 
+        }
+ 
+    ]
+ 
+}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>capabilities</field>
+        <id>71c8990a83a7d610645f9470ceaad3f8</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-07 11:54:21</sys_created_on>
+        <sys_id>56c8d90a83a7d610645f9470ceaad313</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-07 11:54:21</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>connection</field>
+        <id>71c8990a83a7d610645f9470ceaad3f8</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-07 11:56:11</sys_created_on>
+        <sys_id>4939554a83a7d610645f9470ceaad38f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-07 11:56:11</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>connection_timeout</field>
+        <id>71c8990a83a7d610645f9470ceaad3f8</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-07 11:54:21</sys_created_on>
+        <sys_id>9ec8d90a83a7d610645f9470ceaad313</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-07 11:54:21</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>headers</field>
+        <id>71c8990a83a7d610645f9470ceaad3f8</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-07 11:54:21</sys_created_on>
+        <sys_id>92c8d90a83a7d610645f9470ceaad313</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-07 14:35:30</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value>{"type":"ADV_NV","value":[{"name":"api-key","value":"{{step[0c5f4af9-87cb-415d-b69c-1dd79f977608].record.api_key}}","attributes":{"omit_if_empty":false,"mandatory":false}},{"name":"Content-Type","value":"application/json","attributes":{"omit_if_empty":false,"mandatory":false}}]}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>honor_duplicate_headers</field>
+        <id>71c8990a83a7d610645f9470ceaad3f8</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-07 11:54:21</sys_created_on>
+        <sys_id>9ec8d90a83a7d610645f9470ceaad311</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-07 11:54:21</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>honor_duplicate_query_params</field>
+        <id>71c8990a83a7d610645f9470ceaad3f8</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-07 11:54:21</sys_created_on>
+        <sys_id>5ac8d90a83a7d610645f9470ceaad312</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-07 11:54:21</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>http_method</field>
+        <id>71c8990a83a7d610645f9470ceaad3f8</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-07 11:54:21</sys_created_on>
+        <sys_id>1ec8d90a83a7d610645f9470ceaad312</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-07 11:54:21</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>override_base_url</field>
+        <id>71c8990a83a7d610645f9470ceaad3f8</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-07 11:55:02</sys_created_on>
+        <sys_id>08f89d0a83a7d610645f9470ceaad3d7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-07 11:55:02</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>query_params</field>
+        <id>71c8990a83a7d610645f9470ceaad3f8</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-07 11:54:21</sys_created_on>
+        <sys_id>dac8d90a83a7d610645f9470ceaad313</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-07 11:54:21</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>resource_path</field>
+        <id>71c8990a83a7d610645f9470ceaad3f8</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-07 11:54:21</sys_created_on>
+        <sys_id>dec8d90a83a7d610645f9470ceaad312</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-07 11:54:21</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_translated_text action="delete_multiple" query="documentkey=71c8990a83a7d610645f9470ceaad3f8"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=71c8990a83a7d610645f9470ceaad3f8"/>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=71c8990a83a7d610645f9470ceaad3f8"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=71c8990a83a7d610645f9470ceaad3f8^sys_idNOT IN1ec8d90a83a7d610645f9470ceaad30e"/>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <input_name>resource_path</input_name>
+        <instance>71c8990a83a7d610645f9470ceaad3f8</instance>
+        <referenced_table>sys_hub_step_instance</referenced_table>
+        <script>{"resource_path":{"scriptActive":false}}</script>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-07 11:54:21</sys_created_on>
+        <sys_id>1ec8d90a83a7d610645f9470ceaad30e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-07 11:54:21</sys_updated_on>
+    </sys_hub_input_scripts>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="OpenAI action">fe77ddc283a7d610645f9470ceaad385</action>
+        <cid>0c5f4af9-87cb-415d-b69c-1dd79f977608</cid>
+        <error_handling_type>1</error_handling_type>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Look Up Record step</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Look Up Record">dc9c26043b23220057a4a2e334efc447</step_type>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-07 14:34:16</sys_created_on>
+        <sys_id>f06df54a836bd610645f9470ceaad3a5</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="ICS S011 OpenAI HAck">9c9b4d028367d610645f9470ceaad349</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-07 14:34:16</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=f06df54a836bd610645f9470ceaad3a5"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>f06df54a836bd610645f9470ceaad3a5</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-07 14:34:16</sys_created_on>
+        <sys_id>b46df54a836bd610645f9470ceaad3af</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-07 14:34:16</sys_updated_on>
+        <value>sys_id=d1ae898a8367d610645f9470ceaad385</value>
+        <variable display_value="Condition">0cfca6043b23220057a4a2e334efc43b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>f06df54a836bd610645f9470ceaad3a5</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-07 14:34:16</sys_created_on>
+        <sys_id>f06df54a836bd610645f9470ceaad3af</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-07 14:34:16</sys_updated_on>
+        <value>api_key_credentials</value>
+        <variable display_value="Table">f9cc66043b23220057a4a2e334efc42f</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_dc9c26043b23220057a4a2e334efc447^id=f06df54a836bd610645f9470ceaad3a5"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=f06df54a836bd610645f9470ceaad3a5"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=f06df54a836bd610645f9470ceaad3a5"/>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=f06df54a836bd610645f9470ceaad3a5"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=f06df54a836bd610645f9470ceaad3a5"/>
+    <sys_hub_action_input action="delete_multiple" query="model=fe77ddc283a7d610645f9470ceaad385^sys_idNOT IN0dc8990a83a7d610645f9470ceaad38a,2b0f068283ebd610645f9470ceaad3b4"/>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=27f8ebc8-5061-4c28-8ea5-a7a56fcef008</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>prompt1</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Prompt</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="OpenAI action">fe77ddc283a7d610645f9470ceaad385</model>
+        <model_id>fe77ddc283a7d610645f9470ceaad385</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_input_fe77ddc283a7d610645f9470ceaad385</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-07 11:54:16</sys_created_on>
+        <sys_id>0dc8990a83a7d610645f9470ceaad38a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ICS S011 OpenAI HAck">9c9b4d028367d610645f9470ceaad349</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-07 11:54:16</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=0dc8990a83a7d610645f9470ceaad38a"/>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=6bd40d3d-6577-4c2e-878f-7fac1717a2e7</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>result</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Query</label>
+        <mandatory>false</mandatory>
+        <max_length>1215752192</max_length>
+        <model display_value="OpenAI action">fe77ddc283a7d610645f9470ceaad385</model>
+        <model_id>fe77ddc283a7d610645f9470ceaad385</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_input_fe77ddc283a7d610645f9470ceaad385</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-07 15:51:28</sys_created_on>
+        <sys_id>2b0f068283ebd610645f9470ceaad3b4</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ICS S011 OpenAI HAck">9c9b4d028367d610645f9470ceaad349</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-07 15:52:04</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=2b0f068283ebd610645f9470ceaad3b4"/>
+    <sys_hub_action_output action="delete_multiple" query="model=fe77ddc283a7d610645f9470ceaad385^sys_idNOT IN1b9c350a836bd610645f9470ceaad3ea,dec8d90a83a7d610645f9470ceaad319,e2c8d90a83a7d610645f9470ceaad338"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=string,uiTypeLabel=String,uiUniqueId=8a83e468-84f2-4246-8379-92fe51fe782b</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>outputai</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>OutputAI</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="OpenAI action">fe77ddc283a7d610645f9470ceaad385</model>
+        <model_id>fe77ddc283a7d610645f9470ceaad385</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_fe77ddc283a7d610645f9470ceaad385</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-07 14:30:54</sys_created_on>
+        <sys_id>1b9c350a836bd610645f9470ceaad3ea</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ICS S011 OpenAI HAck">9c9b4d028367d610645f9470ceaad349</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-07 14:30:54</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=1b9c350a836bd610645f9470ceaad3ea"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=1b9c350a836bd610645f9470ceaad3ea"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,co_type_name=FDACTIONSTATUS,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=81b8db6d-29c4-433a-95d7-45a7e50d3d64</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__action_status__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Action Status</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="OpenAI action">fe77ddc283a7d610645f9470ceaad385</model>
+        <model_id>fe77ddc283a7d610645f9470ceaad385</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_fe77ddc283a7d610645f9470ceaad385</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-07 11:54:22</sys_created_on>
+        <sys_id>dec8d90a83a7d610645f9470ceaad319</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ICS S011 OpenAI HAck">9c9b4d028367d610645f9470ceaad349</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-08 01:20:08</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=dec8d90a83a7d610645f9470ceaad319"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=dec8d90a83a7d610645f9470ceaad319"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=boolean,uiTypeLabel=True/False,uiUniqueId=92f9411b-3462-4e16-86b9-69c9db174be1,visible_in_ui=false</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value>true</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__dont_treat_as_error__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="">boolean</internal_type>
+        <label>Don't Treat as Error</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="OpenAI action">fe77ddc283a7d610645f9470ceaad385</model>
+        <model_id>fe77ddc283a7d610645f9470ceaad385</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_fe77ddc283a7d610645f9470ceaad385</name>
+        <next_element/>
+        <order>3</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-07 11:54:22</sys_created_on>
+        <sys_id>e2c8d90a83a7d610645f9470ceaad338</sys_id>
+        <sys_mod_count>79</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ICS S011 OpenAI HAck">9c9b4d028367d610645f9470ceaad349</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-08 01:20:15</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=e2c8d90a83a7d610645f9470ceaad338"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=e2c8d90a83a7d610645f9470ceaad338"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=fe77ddc283a7d610645f9470ceaad385"/>
+    <sys_hub_action_status_metadata action="delete_multiple" query="action_type_id=fe77ddc283a7d610645f9470ceaad385^sys_idNOT INf2c8d90a83a7d610645f9470ceaad36a"/>
+    <sys_hub_action_status_metadata action="INSERT_OR_UPDATE">
+        <action_type_id display_value="OpenAI action">fe77ddc283a7d610645f9470ceaad385</action_type_id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-07 11:54:23</sys_created_on>
+        <sys_id>f2c8d90a83a7d610645f9470ceaad36a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-07 11:54:23</sys_updated_on>
+    </sys_hub_action_status_metadata>
+    <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=f2c8d90a83a7d610645f9470ceaad36a"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>result</element>
+        <help/>
+        <hint/>
+        <label>Query</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_fe77ddc283a7d610645f9470ceaad385</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-07 15:51:28</sys_created_on>
+        <sys_id>2b0f068283ebd610645f9470ceaad3b7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="ICS S011 OpenAI HAck" source="x_869151_ics_s011">9c9b4d028367d610645f9470ceaad349</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ICS S011 OpenAI HAck">9c9b4d028367d610645f9470ceaad349</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-07 15:51:28</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>prompt1</element>
+        <help/>
+        <hint/>
+        <label>Prompt</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_fe77ddc283a7d610645f9470ceaad385</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-07 11:54:17</sys_created_on>
+        <sys_id>4dc8990a83a7d610645f9470ceaad391</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="ICS S011 OpenAI HAck" source="x_869151_ics_s011">9c9b4d028367d610645f9470ceaad349</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ICS S011 OpenAI HAck">9c9b4d028367d610645f9470ceaad349</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-07 11:54:17</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_fe77ddc283a7d610645f9470ceaad385"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>outputai</element>
+        <help/>
+        <hint/>
+        <label>OutputAI</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_fe77ddc283a7d610645f9470ceaad385</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-07 14:30:54</sys_created_on>
+        <sys_id>139c350a836bd610645f9470ceaad3ee</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="ICS S011 OpenAI HAck" source="x_869151_ics_s011">9c9b4d028367d610645f9470ceaad349</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ICS S011 OpenAI HAck">9c9b4d028367d610645f9470ceaad349</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-07 14:30:54</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__action_status__</element>
+        <help/>
+        <hint/>
+        <label>Action Status</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_fe77ddc283a7d610645f9470ceaad385</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-07 11:54:22</sys_created_on>
+        <sys_id>e2c8d90a83a7d610645f9470ceaad337</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="ICS S011 OpenAI HAck" source="x_869151_ics_s011">9c9b4d028367d610645f9470ceaad349</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ICS S011 OpenAI HAck">9c9b4d028367d610645f9470ceaad349</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-07 11:54:22</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__dont_treat_as_error__</element>
+        <help/>
+        <hint/>
+        <label>Don't Treat as Error</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_fe77ddc283a7d610645f9470ceaad385</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-07 11:54:23</sys_created_on>
+        <sys_id>f6c8d90a83a7d610645f9470ceaad33e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="ICS S011 OpenAI HAck" source="x_869151_ics_s011">9c9b4d028367d610645f9470ceaad349</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ICS S011 OpenAI HAck">9c9b4d028367d610645f9470ceaad349</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-07 11:54:23</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_output_fe77ddc283a7d610645f9470ceaad385"/>
+    <sys_hub_action_plan action="delete_multiple" query="action_id=fe77ddc283a7d610645f9470ceaad385^sys_idNOT IN501d314a836bd610645f9470ceaad313"/>
+    <sys_hub_action_plan action="INSERT_OR_UPDATE">
+        <action_id display_value="OpenAI action">fe77ddc283a7d610645f9470ceaad385</action_id>
+        <plan>{"type":"PlanProxy","persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"501d314a836bd610645f9470ceaad313","name":"plan","plan_signature":null}}</plan>
+        <snapshot>c8419cde83671a10645f9470ceaad36a</snapshot>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-07 14:32:53</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>501d314a836bd610645f9470ceaad313</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-08 01:20:19</sys_updated_on>
+    </sys_hub_action_plan>
+    <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <action_status/>
+        <action_template/>
+        <annotation/>
+        <attributes>{labelCacheCleanUpExecuted=true}</attributes>
+        <authored_on_release_version>27000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>OpenAI action</description>
+        <flow_priority/>
+        <internal_name>openai_action</internal_name>
+        <label_cache>[{"name":"{{action.model}}","label":"action➛MODEL","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.variab}}","label":"action➛variab","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.prompt}}","label":"action➛PROMPT","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.result}}","label":"action➛Query","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceUiUniqueId":"","sourceType":"","uiType":"string","uiUniqueId":"6bd40d3d-6577-4c2e-878f-7fac1717a2e7"}},{"name":"{{action.prompt1}}","label":"action➛Prompt","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[20905ac4-6039-402d-a2c7-4ea0e753854a].response_body}}","label":"step➛REST step➛Response Body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"hidden_for":"DATASTREAM"}},{"name":"{{step[79238e6b-6824-4cbb-bd5c-71d13b2cdb90].__step_status__.message}}","label":"step➛JSON Parser step➛Step Status➛Message","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[79238e6b-6824-4cbb-bd5c-71d13b2cdb90].root.object}}","label":"step➛JSON Parser step➛root➛object","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[79238e6b-6824-4cbb-bd5c-71d13b2cdb90].root.choices}}","label":"step➛JSON Parser step➛root➛choices","type":"step","ref":"","reference_display":"","base_type":"array.string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[79238e6b-6824-4cbb-bd5c-71d13b2cdb90].variable.variable_child1}}","label":"step➛JSON Parser step➛variable➛variable_child1","type":"step","ref":"","reference_display":"","base_type":"array.string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[79238e6b-6824-4cbb-bd5c-71d13b2cdb90].Payload.output}}","label":"step➛JSON Parser step➛Payload➛output","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[79238e6b-6824-4cbb-bd5c-71d13b2cdb90].Payload.Content}}","label":"step➛JSON Parser step➛Payload➛Content","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[0c5f4af9-87cb-415d-b69c-1dd79f977608].record.api_key}}","label":"step➛Look Up Record step➛API Key Credentials Record➛API Key","type":"step","ref":"","reference_display":"API Key","base_type":"password2","parent_table_name":"api_key_credentials","column_name":"api_key","choices":null,"attributes":{}}]</label_cache>
+        <master>true</master>
+        <name>OpenAI action</name>
+        <natlang/>
+        <outputs/>
+        <outputs/>
+        <parent_action display_value="OpenAI action">fe77ddc283a7d610645f9470ceaad385</parent_action>
+        <sys_class_name>sys_hub_action_type_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-07 14:32:49</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>230dfd0a836bd610645f9470ceaad35b</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ICS S011 OpenAI HAck">9c9b4d028367d610645f9470ceaad349</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-07 15:52:16</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=230dfd0a836bd610645f9470ceaad35b"/>
+    <sys_variable_value action="delete_multiple" query="document_key=230dfd0a836bd610645f9470ceaad35b"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_snapshot</document>
+        <document_key>230dfd0a836bd610645f9470ceaad35b</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-07 14:32:51</sys_created_on>
+        <sys_id>841dfd0a836bd610645f9470ceaad3be</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-07 14:32:51</sys_updated_on>
+        <value>{"version":"1.0","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"794bc342-9c9d-444b-a3f2-dd4b6a5a0173\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}},"serializationFormat":"JSON"}</value>
+        <variable display_value="Action Status">c01dfd0a836bd610645f9470ceaad3b1</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_snapshot</document>
+        <document_key>230dfd0a836bd610645f9470ceaad35b</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-07 14:32:51</sys_created_on>
+        <sys_id>c01dfd0a836bd610645f9470ceaad3be</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-07 14:32:51</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Don't Treat as Error">4c1dfd0a836bd610645f9470ceaad3b4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=230dfd0a836bd610645f9470ceaad35b"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>outputai</field>
+        <id>230dfd0a836bd610645f9470ceaad35b</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-07 14:32:51</sys_created_on>
+        <sys_id>401dfd0a836bd610645f9470ceaad3be</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-07 14:32:51</sys_updated_on>
+        <table>var__m_sys_hub_action_output_230dfd0a836bd610645f9470ceaad35b</table>
+        <value>{{step[79238e6b-6824-4cbb-bd5c-71d13b2cdb90].Payload.Content}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>__action_status__</field>
+        <id>230dfd0a836bd610645f9470ceaad35b</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-07 14:32:51</sys_created_on>
+        <sys_id>8c1dfd0a836bd610645f9470ceaad3bd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-07 14:32:51</sys_updated_on>
+        <table>var__m_sys_hub_action_output_230dfd0a836bd610645f9470ceaad35b</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>__dont_treat_as_error__</field>
+        <id>230dfd0a836bd610645f9470ceaad35b</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-07 14:32:51</sys_created_on>
+        <sys_id>c81dfd0a836bd610645f9470ceaad3bd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-07 14:32:51</sys_updated_on>
+        <table>var__m_sys_hub_action_output_230dfd0a836bd610645f9470ceaad35b</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_step_instance action="delete_multiple" query="action=230dfd0a836bd610645f9470ceaad35b^sys_idNOT IN40ed358a836bd610645f9470ceaad388,7b0dfd0a836bd610645f9470ceaad392,ff0dfd0a836bd610645f9470ceaad369"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="OpenAI action">230dfd0a836bd610645f9470ceaad35b</action>
+        <cid>0c5f4af9-87cb-415d-b69c-1dd79f977608</cid>
+        <error_handling_type>1</error_handling_type>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Look Up Record step</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Look Up Record">dc9c26043b23220057a4a2e334efc447</step_type>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-07 14:36:24</sys_created_on>
+        <sys_id>40ed358a836bd610645f9470ceaad388</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="ICS S011 OpenAI HAck">9c9b4d028367d610645f9470ceaad349</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-07 14:36:24</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=40ed358a836bd610645f9470ceaad388"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>40ed358a836bd610645f9470ceaad388</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-07 14:36:24</sys_created_on>
+        <sys_id>00ed358a836bd610645f9470ceaad390</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-07 14:36:24</sys_updated_on>
+        <value>api_key_credentials</value>
+        <variable display_value="Table">f9cc66043b23220057a4a2e334efc42f</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>40ed358a836bd610645f9470ceaad388</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-07 14:36:24</sys_created_on>
+        <sys_id>c0ed358a836bd610645f9470ceaad390</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-07 14:36:24</sys_updated_on>
+        <value>sys_id=d1ae898a8367d610645f9470ceaad385</value>
+        <variable display_value="Condition">0cfca6043b23220057a4a2e334efc43b</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_dc9c26043b23220057a4a2e334efc447^id=40ed358a836bd610645f9470ceaad388"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=40ed358a836bd610645f9470ceaad388"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=40ed358a836bd610645f9470ceaad388"/>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=40ed358a836bd610645f9470ceaad388"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=40ed358a836bd610645f9470ceaad388"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="OpenAI action">230dfd0a836bd610645f9470ceaad35b</action>
+        <cid>79238e6b-6824-4cbb-bd5c-71d13b2cdb90</cid>
+        <error_handling_type>2</error_handling_type>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>JSON Parser step</label>
+        <order>3</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="JSON Parser">502328c387523300f917e55936cb0bf0</step_type>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-07 14:32:51</sys_created_on>
+        <sys_id>7b0dfd0a836bd610645f9470ceaad392</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="ICS S011 OpenAI HAck">9c9b4d028367d610645f9470ceaad349</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-07 14:36:25</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=7b0dfd0a836bd610645f9470ceaad392"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>7b0dfd0a836bd610645f9470ceaad392</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-07 14:32:51</sys_created_on>
+        <sys_id>041dfd0a836bd610645f9470ceaad3ab</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-07 14:32:51</sys_updated_on>
+        <value>structured</value>
+        <variable display_value="Payload view">95d4280787523300f917e55936cb0bfe</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>7b0dfd0a836bd610645f9470ceaad392</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-07 14:32:51</sys_created_on>
+        <sys_id>401dfd0a836bd610645f9470ceaad3ab</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-07 14:32:51</sys_updated_on>
+        <value>{"choices":[{"content_filter_results":{"hate":{"filtered":false,"severity":"safe"},"protected_material_text":{"filtered":false,"detected":false},"self_harm":{"filtered":false,"severity":"safe"},"sexual":{"filtered":false,"severity":"safe"},"violence":{"filtered":false,"severity":"safe"}},"finish_reason":"stop","index":0,"logprobs":null,"message":{"content":"Yes, Azure OpenAI Service supports customer-managed keys (CMK) for encrypting data at rest. This allows organizations to have more control over their encryption keys and comply with specific regulatory requirements. By using Azure Key Vault, customers can manage their own keys, and these keys can be used to encrypt the data processed by the Azure OpenAI Service.\n\nTo implement customer-managed keys, you typically need to configure your Azure storage account or other services used in conjunction with Azure OpenAI to use the keys stored in Azure Key Vault. Be sure to refer to the official Azure documentation for specific instructions on how to set up and manage customer-managed keys with Azure OpenAI.\n\nFor the most up-to-date information, features, and configurations, always check Azure's official documentation or service updates.","refusal":null,"role":"assistant"}}],"created":1738937318,"id":"chatcmpl-AyJK2uwb1PnIbwZT12FMHtdKgUvRL","model":"gpt-4o-mini-2024-07-18","object":"chat.completion","prompt_filter_results":[{"prompt_index":0,"content_filter_results":{"hate":{"filtered":false,"severity":"safe"},"jailbreak":{"filtered":false,"detected":false},"self_harm":{"filtered":false,"severity":"safe"},"sexual":{"filtered":false,"severity":"safe"},"violence":{"filtered":false,"severity":"safe"}}}],"system_fingerprint":"fp_f3927aa00d","usage":{"completion_tokens":155,"completion_tokens_details":{"accepted_prediction_tokens":0,"audio_tokens":0,"reasoning_tokens":0,"rejected_prediction_tokens":0},"prompt_tokens":26,"prompt_tokens_details":{"audio_tokens":0,"cached_tokens":0},"total_tokens":181}}&#13;
+</value>
+        <variable display_value="Sample payload">d335ac0787523300f917e55936cb0b1d</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>7b0dfd0a836bd610645f9470ceaad392</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-07 14:32:51</sys_created_on>
+        <sys_id>8c1dfd0a836bd610645f9470ceaad3aa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-07 14:32:51</sys_updated_on>
+        <value>{"name":"Payload","children":[{"name":"Content","children":[],"type":"string","jpath":"$.choices[0].message.content","previewValue":"Yes, Azure OpenAI Service supports customer-managed keys (CMK) for encrypting data at rest. This allows organizations to have more control over their encryption keys and comply with specific regulatory requirements. By using Azure Key Vault, customers can manage their own keys, and these keys can be used to encrypt the data processed by the Azure OpenAI Service.\n\nTo implement customer-managed keys, you typically need to configure your Azure storage account or other services used in conjunction with Azure OpenAI to use the keys stored in Azure Key Vault. Be sure to refer to the official Azure documentation for specific instructions on how to set up and manage customer-managed keys with Azure OpenAI.\n\nFor the most up-to-date information, features, and configurations, always check Azure's official documentation or service updates."}],"type":"object","jpath":"$","previewValue":"{\"choices\":[{\"content_filter_results\":{\"hate\":{\"filtered\":false,\"severity\":\"safe\"},\"protected_material_text\":{\"filtered\":false,\"detected\":false},\"self_harm\":{\"filtered\":false,\"severity\":\"safe\"},\"sexual\":{\"filtered\":false,\"severity\":\"safe\"},\"violence\":{\"filtered\":false,\"severity\":\"safe\"}},\"finish_reason\":\"stop\",\"index\":0,\"logprobs\":null,\"message\":{\"content\":\"Yes, Azure OpenAI Service supports customer-managed keys (CMK) for encrypting data at rest. This allows organizations to have more control over their encryption keys and comply with specific regulatory requirements. By using Azure Key Vault, customers can manage their own keys, and these keys can be used to encrypt the data processed by the Azure OpenAI Service.\\n\\nTo implement customer-managed keys, you typically need to configure your Azure storage account or other services used in conjunction with Azure OpenAI to use the keys stored in Azure Key Vault. Be sure to refer to the official Azure documentation for specific instructions on how to set up and manage customer-managed keys with Azure OpenAI.\\n\\nFor the most up-to-date information, features, and configurations, always check Azure's official documentation or service updates.\",\"refusal\":null,\"role\":\"assistant\"}}],\"created\":1738937318,\"id\":\"chatcmpl-AyJK2uwb1PnIbwZT12FMHtdKgUvRL\",\"model\":\"gpt-4o-mini-2024-07-18\",\"object\":\"chat.completion\",\"prompt_filter_results\":[{\"prompt_index\":0,\"content_filter_results\":{\"hate\":{\"filtered\":false,\"severity\":\"safe\"},\"jailbreak\":{\"filtered\":false,\"detected\":false},\"self_harm\":{\"filtered\":false,\"severity\":\"safe\"},\"sexual\":{\"filtered\":false,\"severity\":\"safe\"},\"violence\":{\"filtered\":false,\"severity\":\"safe\"}}}],\"system_fingerprint\":\"fp_f3927aa00d\",\"usage\":{\"completion_tokens\":155,\"completion_tokens_details\":{\"accepted_prediction_tokens\":0,\"audio_tokens\":0,\"reasoning_tokens\":0,\"rejected_prediction_tokens\":0},\"prompt_tokens\":26,\"prompt_tokens_details\":{\"audio_tokens\":0,\"cached_tokens\":0},\"total_tokens\":181}}"}</value>
+        <variable display_value="Target">4674240787523300f917e55936cb0b0e</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_7b0dfd0a836bd610645f9470ceaad392^id=7b0dfd0a836bd610645f9470ceaad392"/>
+    <sys_element_mapping action="delete_multiple" query="id=7b0dfd0a836bd610645f9470ceaad392"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>payload_view</field>
+        <id>7b0dfd0a836bd610645f9470ceaad392</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-07 14:32:51</sys_created_on>
+        <sys_id>481dfd0a836bd610645f9470ceaad3aa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-07 14:32:51</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_502328c387523300f917e55936cb0bf0</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>sample_payload</field>
+        <id>7b0dfd0a836bd610645f9470ceaad392</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-07 14:32:51</sys_created_on>
+        <sys_id>0c1dfd0a836bd610645f9470ceaad3aa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-07 14:32:51</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_502328c387523300f917e55936cb0bf0</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>source_data</field>
+        <id>7b0dfd0a836bd610645f9470ceaad392</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-07 14:32:51</sys_created_on>
+        <sys_id>841dfd0a836bd610645f9470ceaad3aa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-07 14:32:51</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_502328c387523300f917e55936cb0bf0</table>
+        <value>{{step[20905ac4-6039-402d-a2c7-4ea0e753854a].response_body}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>target_schema</field>
+        <id>7b0dfd0a836bd610645f9470ceaad392</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-07 14:32:51</sys_created_on>
+        <sys_id>c01dfd0a836bd610645f9470ceaad3aa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-07 14:32:51</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_502328c387523300f917e55936cb0bf0</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_translated_text action="delete_multiple" query="documentkey=7b0dfd0a836bd610645f9470ceaad392"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=7b0dfd0a836bd610645f9470ceaad392"/>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=7b0dfd0a836bd610645f9470ceaad392^sys_idNOT IN330dfd0a836bd610645f9470ceaad396"/>
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FD770dfd0aeb6bd610ac8f251c8d77be95</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>9c9b4d028367d610645f9470ceaad349</scope_name>
+        <serialized_content>{"FlowDesigner:FD770dfd0aeb6bd610ac8f251c8d77be95":{"Content":"String","Content.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"Content\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\",\"uiUniqueId\":\"dadc16c7-2864-45d5-ae99-6740ed9e565c\"}"}},"FlowDesigner:FD770dfd0aeb6bd610ac8f251c8d77be95.$type_facets":{"SimpleMapFacet":"{\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"Payload\",\"mandatory\":\"false\",\"uiUniqueId\":\"3f66880b-97e9-4bd4-9d9b-16f5ae5fad1f\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FD770dfd0aeb6bd610ac8f251c8d77be95\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-07 14:32:51</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>3b0dfd0a836bd610645f9470ceaad395</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ICS S011 OpenAI HAck">9c9b4d028367d610645f9470ceaad349</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-08 01:20:18</sys_updated_on>
+        <type>complex_object_schema</type>
+    </sys_complex_object>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>co_type_name=FD770dfd0aeb6bd610ac8f251c8d77be95,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=3f66880b-97e9-4bd4-9d9b-16f5ae5fad1f</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>Payload</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Payload</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="JSON Parser step">7b0dfd0a836bd610645f9470ceaad392</model>
+        <model_id>7b0dfd0a836bd610645f9470ceaad392</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_7b0dfd0a836bd610645f9470ceaad392</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-07 14:32:51</sys_created_on>
+        <sys_id>330dfd0a836bd610645f9470ceaad396</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ICS S011 OpenAI HAck">9c9b4d028367d610645f9470ceaad349</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-07 14:32:51</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=7b0dfd0a836bd610645f9470ceaad392^sys_idNOT IN441dfd0a836bd610645f9470ceaad3a9"/>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <input_name>source_data</input_name>
+        <instance>7b0dfd0a836bd610645f9470ceaad392</instance>
+        <referenced_table>sys_hub_step_instance</referenced_table>
+        <script>{"source_data":{"scriptActive":false}}</script>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-07 14:32:51</sys_created_on>
+        <sys_id>441dfd0a836bd610645f9470ceaad3a9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-07 14:32:51</sys_updated_on>
+    </sys_hub_input_scripts>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>Payload</element>
+        <help/>
+        <hint/>
+        <label>Payload</label>
+        <language>en</language>
+        <name>var__m_sys_hub_step_ext_output_7b0dfd0a836bd610645f9470ceaad392</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-07 14:32:51</sys_created_on>
+        <sys_id>041dfd0a836bd610645f9470ceaad3a5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="ICS S011 OpenAI HAck" source="x_869151_ics_s011">9c9b4d028367d610645f9470ceaad349</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ICS S011 OpenAI HAck">9c9b4d028367d610645f9470ceaad349</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-07 14:32:51</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="OpenAI action">230dfd0a836bd610645f9470ceaad35b</action>
+        <cid>20905ac4-6039-402d-a2c7-4ea0e753854a</cid>
+        <error_handling_type>1</error_handling_type>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>REST step</label>
+        <order>2</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="REST">07a762fb47222200b4fad7527c9a7129</step_type>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-07 14:32:50</sys_created_on>
+        <sys_id>ff0dfd0a836bd610645f9470ceaad369</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope display_value="ICS S011 OpenAI HAck">9c9b4d028367d610645f9470ceaad349</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-07 14:36:25</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=ff0dfd0a836bd610645f9470ceaad369"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>ff0dfd0a836bd610645f9470ceaad369</document_key>
+        <order>5</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-07 14:32:51</sys_created_on>
+        <sys_id>330dfd0a836bd610645f9470ceaad38e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-07 14:32:51</sys_updated_on>
+        <value>define_connection_inline</value>
+        <variable display_value="Connection">91e207d03b50030057a4a2e334efc4a0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>ff0dfd0a836bd610645f9470ceaad369</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-07 14:32:51</sys_created_on>
+        <sys_id>370dfd0a836bd610645f9470ceaad38d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-07 14:32:51</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Honor Duplicate Headers">15288f755bd24110ab933520b881c713</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>ff0dfd0a836bd610645f9470ceaad369</document_key>
+        <order>15</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-07 14:32:51</sys_created_on>
+        <sys_id>3f0dfd0a836bd610645f9470ceaad38e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-07 14:32:51</sys_updated_on>
+        <value>https://hac-openai-instance-01.openai.azure.com</value>
+        <variable display_value="Base URL">a67a8ef03b23320057a4a2e334efc472</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>ff0dfd0a836bd610645f9470ceaad369</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-07 14:32:51</sys_created_on>
+        <sys_id>770dfd0a836bd610645f9470ceaad38f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-07 14:32:51</sys_updated_on>
+        <value/>
+        <variable display_value="Connection Timeout">7a59009bc7522010820469467ec260c0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>ff0dfd0a836bd610645f9470ceaad369</document_key>
+        <order>13</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-07 14:32:51</sys_created_on>
+        <sys_id>7b0dfd0a836bd610645f9470ceaad38e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-07 14:32:51</sys_updated_on>
+        <value>18409d8007482000dada43c0d1021e8f</value>
+        <variable display_value="Capabilities">c30a451d2f201300a09a839fb18c95b4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>ff0dfd0a836bd610645f9470ceaad369</document_key>
+        <order>20</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-07 14:32:51</sys_created_on>
+        <sys_id>7f0dfd0a836bd610645f9470ceaad38d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-07 14:32:51</sys_updated_on>
+        <value>/openai/deployments/ic11-hack-8-gpt-4o-mini/chat/completions</value>
+        <variable display_value="Resource Path">3d090af03b23320057a4a2e334efc455</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>ff0dfd0a836bd610645f9470ceaad369</document_key>
+        <order>25</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-07 14:32:51</sys_created_on>
+        <sys_id>b30dfd0a836bd610645f9470ceaad38f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-07 14:32:51</sys_updated_on>
+        <value>{"type":"ADV_NV","value":[{"attributes":{"mandatory":false,"omit_if_empty":false},"name":"api-version","value":"2024-05-01-preview"}]}</value>
+        <variable display_value="Query Parameters">4328e2fb47222200b4fad7527c9a7164</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>ff0dfd0a836bd610645f9470ceaad369</document_key>
+        <order>30</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-07 14:32:51</sys_created_on>
+        <sys_id>b70dfd0a836bd610645f9470ceaad38e</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-07 14:36:25</sys_updated_on>
+        <value>{}</value>
+        <variable display_value="Headers">371837f1c71003007b237f48cb9763b0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>ff0dfd0a836bd610645f9470ceaad369</document_key>
+        <order>25</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-07 14:32:51</sys_created_on>
+        <sys_id>bb0dfd0a836bd610645f9470ceaad38d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-07 14:32:51</sys_updated_on>
+        <value>post</value>
+        <variable display_value="HTTP Method">e85b7ebf47222200b4fad7527c9a71e3</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>ff0dfd0a836bd610645f9470ceaad369</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-07 14:32:51</sys_created_on>
+        <sys_id>f30dfd0a836bd610645f9470ceaad38e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-07 14:32:51</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Override Base URL">8e4f451f5b010110ab933520b881c72c</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>ff0dfd0a836bd610645f9470ceaad369</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-07 14:32:51</sys_created_on>
+        <sys_id>f70dfd0a836bd610645f9470ceaad38d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-07 14:32:51</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Honor Duplicate Query Params">58715a1c53f22010d3a8ddeeff7b1248</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>ff0dfd0a836bd610645f9470ceaad369</document_key>
+        <order>12</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-07 14:32:51</sys_created_on>
+        <sys_id>ff0dfd0a836bd610645f9470ceaad38e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-07 14:32:51</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="MID Application">f11ebf865f101300a09a2abd7f466652</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=ff0dfd0a836bd610645f9470ceaad369"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>application</field>
+        <id>ff0dfd0a836bd610645f9470ceaad369</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-07 14:32:51</sys_created_on>
+        <sys_id>3f0dfd0a836bd610645f9470ceaad38c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-07 14:32:51</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>base_url</field>
+        <id>ff0dfd0a836bd610645f9470ceaad369</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-07 14:32:51</sys_created_on>
+        <sys_id>7b0dfd0a836bd610645f9470ceaad38c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-07 14:32:51</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>body</field>
+        <id>ff0dfd0a836bd610645f9470ceaad369</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-07 14:32:51</sys_created_on>
+        <sys_id>bb0dfd0a836bd610645f9470ceaad37e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-07 14:32:51</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value>{
+ 
+    "messages": [
+ 
+        {
+ 
+            "role": "system",
+ 
+            "content": "{{action.prompt1}}"
+ 
+        },
+ 
+        {
+ 
+            "role": "user",
+ 
+            "content": "{{action.result}}"
+ 
+        }
+ 
+    ]
+ 
+}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>capabilities</field>
+        <id>ff0dfd0a836bd610645f9470ceaad369</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-07 14:32:51</sys_created_on>
+        <sys_id>b70dfd0a836bd610645f9470ceaad38c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-07 14:32:51</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>connection</field>
+        <id>ff0dfd0a836bd610645f9470ceaad369</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-07 14:32:51</sys_created_on>
+        <sys_id>b70dfd0a836bd610645f9470ceaad37f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-07 14:32:51</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>connection_timeout</field>
+        <id>ff0dfd0a836bd610645f9470ceaad369</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-07 14:32:51</sys_created_on>
+        <sys_id>b30dfd0a836bd610645f9470ceaad38d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-07 14:32:51</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>headers</field>
+        <id>ff0dfd0a836bd610645f9470ceaad369</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-07 14:32:51</sys_created_on>
+        <sys_id>3f0dfd0a836bd610645f9470ceaad37f</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-07 14:36:25</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value>{"type":"ADV_NV","value":[{"name":"api-key","value":"{{step[0c5f4af9-87cb-415d-b69c-1dd79f977608].record.api_key}}","attributes":{"omit_if_empty":false,"mandatory":false}},{"name":"Content-Type","value":"application/json","attributes":{"omit_if_empty":false,"mandatory":false}}]}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>honor_duplicate_headers</field>
+        <id>ff0dfd0a836bd610645f9470ceaad369</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-07 14:32:51</sys_created_on>
+        <sys_id>f70dfd0a836bd610645f9470ceaad37e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-07 14:32:51</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>honor_duplicate_query_params</field>
+        <id>ff0dfd0a836bd610645f9470ceaad369</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-07 14:32:51</sys_created_on>
+        <sys_id>7f0dfd0a836bd610645f9470ceaad37e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-07 14:32:51</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>http_method</field>
+        <id>ff0dfd0a836bd610645f9470ceaad369</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-07 14:32:51</sys_created_on>
+        <sys_id>330dfd0a836bd610645f9470ceaad37f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-07 14:32:51</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>override_base_url</field>
+        <id>ff0dfd0a836bd610645f9470ceaad369</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-07 14:32:51</sys_created_on>
+        <sys_id>7b0dfd0a836bd610645f9470ceaad37f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-07 14:32:51</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>query_params</field>
+        <id>ff0dfd0a836bd610645f9470ceaad369</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-07 14:32:51</sys_created_on>
+        <sys_id>ff0dfd0a836bd610645f9470ceaad38c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-07 14:32:51</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>resource_path</field>
+        <id>ff0dfd0a836bd610645f9470ceaad369</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-07 14:32:51</sys_created_on>
+        <sys_id>f30dfd0a836bd610645f9470ceaad37f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-07 14:32:51</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_translated_text action="delete_multiple" query="documentkey=ff0dfd0a836bd610645f9470ceaad369"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=ff0dfd0a836bd610645f9470ceaad369"/>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=ff0dfd0a836bd610645f9470ceaad369"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=ff0dfd0a836bd610645f9470ceaad369^sys_idNOT IN370dfd0a836bd610645f9470ceaad37c"/>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <input_name>resource_path</input_name>
+        <instance>ff0dfd0a836bd610645f9470ceaad369</instance>
+        <referenced_table>sys_hub_step_instance</referenced_table>
+        <script>{"resource_path":{"scriptActive":false}}</script>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-07 14:32:51</sys_created_on>
+        <sys_id>370dfd0a836bd610645f9470ceaad37c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-07 14:32:51</sys_updated_on>
+    </sys_hub_input_scripts>
+    <sys_hub_action_input action="delete_multiple" query="model=230dfd0a836bd610645f9470ceaad35b^sys_idNOT IN673f8a8283ebd610645f9470ceaad3a5,eb0dfd0a836bd610645f9470ceaad35d"/>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=6bd40d3d-6577-4c2e-878f-7fac1717a2e7</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>result</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Query</label>
+        <mandatory>false</mandatory>
+        <max_length>1215752192</max_length>
+        <model display_value="OpenAI action">230dfd0a836bd610645f9470ceaad35b</model>
+        <model_id>230dfd0a836bd610645f9470ceaad35b</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_input_230dfd0a836bd610645f9470ceaad35b</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-07 15:52:17</sys_created_on>
+        <sys_id>673f8a8283ebd610645f9470ceaad3a5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ICS S011 OpenAI HAck">9c9b4d028367d610645f9470ceaad349</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-07 15:52:17</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=673f8a8283ebd610645f9470ceaad3a5"/>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=27f8ebc8-5061-4c28-8ea5-a7a56fcef008</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>prompt1</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Prompt</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="OpenAI action">230dfd0a836bd610645f9470ceaad35b</model>
+        <model_id>230dfd0a836bd610645f9470ceaad35b</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_input_230dfd0a836bd610645f9470ceaad35b</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-07 14:32:50</sys_created_on>
+        <sys_id>eb0dfd0a836bd610645f9470ceaad35d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ICS S011 OpenAI HAck">9c9b4d028367d610645f9470ceaad349</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-07 14:32:50</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=eb0dfd0a836bd610645f9470ceaad35d"/>
+    <sys_hub_action_output action="delete_multiple" query="model=230dfd0a836bd610645f9470ceaad35b^sys_idNOT IN4c1dfd0a836bd610645f9470ceaad3b4,801dfd0a836bd610645f9470ceaad3ad,c01dfd0a836bd610645f9470ceaad3b1"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=boolean,uiTypeLabel=True/False,uiUniqueId=92f9411b-3462-4e16-86b9-69c9db174be1,visible_in_ui=false</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value>true</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__dont_treat_as_error__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="">boolean</internal_type>
+        <label>Don't Treat as Error</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="OpenAI action">230dfd0a836bd610645f9470ceaad35b</model>
+        <model_id>230dfd0a836bd610645f9470ceaad35b</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_230dfd0a836bd610645f9470ceaad35b</name>
+        <next_element/>
+        <order>3</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-07 14:32:51</sys_created_on>
+        <sys_id>4c1dfd0a836bd610645f9470ceaad3b4</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ICS S011 OpenAI HAck">9c9b4d028367d610645f9470ceaad349</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-08 01:20:18</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=4c1dfd0a836bd610645f9470ceaad3b4"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=4c1dfd0a836bd610645f9470ceaad3b4"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=string,uiTypeLabel=String,uiUniqueId=8a83e468-84f2-4246-8379-92fe51fe782b</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>outputai</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>OutputAI</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="OpenAI action">230dfd0a836bd610645f9470ceaad35b</model>
+        <model_id>230dfd0a836bd610645f9470ceaad35b</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_230dfd0a836bd610645f9470ceaad35b</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-07 14:32:51</sys_created_on>
+        <sys_id>801dfd0a836bd610645f9470ceaad3ad</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ICS S011 OpenAI HAck">9c9b4d028367d610645f9470ceaad349</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-07 14:32:51</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=801dfd0a836bd610645f9470ceaad3ad"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=801dfd0a836bd610645f9470ceaad3ad"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,co_type_name=FDACTIONSTATUS,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=81b8db6d-29c4-433a-95d7-45a7e50d3d64</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__action_status__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Action Status</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="OpenAI action">230dfd0a836bd610645f9470ceaad35b</model>
+        <model_id>230dfd0a836bd610645f9470ceaad35b</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_230dfd0a836bd610645f9470ceaad35b</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-07 14:32:51</sys_created_on>
+        <sys_id>c01dfd0a836bd610645f9470ceaad3b1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ICS S011 OpenAI HAck">9c9b4d028367d610645f9470ceaad349</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-07 14:32:51</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=c01dfd0a836bd610645f9470ceaad3b1"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=c01dfd0a836bd610645f9470ceaad3b1"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=230dfd0a836bd610645f9470ceaad35b"/>
+    <sys_hub_action_status_metadata action="delete_multiple" query="action_type_id=230dfd0a836bd610645f9470ceaad35b^sys_idNOT IN8c1dfd0a836bd610645f9470ceaad3bf"/>
+    <sys_hub_action_status_metadata action="INSERT_OR_UPDATE">
+        <action_type_id display_value="OpenAI action">230dfd0a836bd610645f9470ceaad35b</action_type_id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-07 14:32:51</sys_created_on>
+        <sys_id>8c1dfd0a836bd610645f9470ceaad3bf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-07 14:32:51</sys_updated_on>
+    </sys_hub_action_status_metadata>
+    <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=8c1dfd0a836bd610645f9470ceaad3bf"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>prompt1</element>
+        <help/>
+        <hint/>
+        <label>Prompt</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_230dfd0a836bd610645f9470ceaad35b</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-07 14:32:50</sys_created_on>
+        <sys_id>630dfd0a836bd610645f9470ceaad361</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="ICS S011 OpenAI HAck" source="x_869151_ics_s011">9c9b4d028367d610645f9470ceaad349</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ICS S011 OpenAI HAck">9c9b4d028367d610645f9470ceaad349</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-07 14:32:50</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>result</element>
+        <help/>
+        <hint/>
+        <label>Query</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_230dfd0a836bd610645f9470ceaad35b</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-07 15:52:17</sys_created_on>
+        <sys_id>673f8a8283ebd610645f9470ceaad3a8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="ICS S011 OpenAI HAck" source="x_869151_ics_s011">9c9b4d028367d610645f9470ceaad349</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ICS S011 OpenAI HAck">9c9b4d028367d610645f9470ceaad349</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-07 15:52:17</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_230dfd0a836bd610645f9470ceaad35b"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>outputai</element>
+        <help/>
+        <hint/>
+        <label>OutputAI</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_230dfd0a836bd610645f9470ceaad35b</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-07 14:32:51</sys_created_on>
+        <sys_id>081dfd0a836bd610645f9470ceaad3b0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="ICS S011 OpenAI HAck" source="x_869151_ics_s011">9c9b4d028367d610645f9470ceaad349</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ICS S011 OpenAI HAck">9c9b4d028367d610645f9470ceaad349</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-07 14:32:51</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__dont_treat_as_error__</element>
+        <help/>
+        <hint/>
+        <label>Don't Treat as Error</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_230dfd0a836bd610645f9470ceaad35b</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-07 14:32:51</sys_created_on>
+        <sys_id>441dfd0a836bd610645f9470ceaad3b9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="ICS S011 OpenAI HAck" source="x_869151_ics_s011">9c9b4d028367d610645f9470ceaad349</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ICS S011 OpenAI HAck">9c9b4d028367d610645f9470ceaad349</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-07 14:32:51</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__action_status__</element>
+        <help/>
+        <hint/>
+        <label>Action Status</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_230dfd0a836bd610645f9470ceaad35b</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-07 14:32:51</sys_created_on>
+        <sys_id>801dfd0a836bd610645f9470ceaad3b4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="ICS S011 OpenAI HAck" source="x_869151_ics_s011">9c9b4d028367d610645f9470ceaad349</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ICS S011 OpenAI HAck">9c9b4d028367d610645f9470ceaad349</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-07 14:32:51</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_output_230dfd0a836bd610645f9470ceaad35b"/>
+    <sys_hub_action_type_definition action="UPDATE">
+        <sys_id>fe77ddc283a7d610645f9470ceaad385</sys_id>
+        <latest_snapshot>230dfd0a836bd610645f9470ceaad35b</latest_snapshot>
+        <compiler_build>glide-yokohama-12-18-2024__patch0-01-14-2025_01-22-2025_0439.zip</compiler_build>
+    </sys_hub_action_type_definition>
+</record_update>

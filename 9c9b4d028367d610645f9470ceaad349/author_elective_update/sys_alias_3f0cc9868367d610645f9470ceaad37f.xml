@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_alias">
+    <sys_alias action="DELETE">
+        <configuration_template/>
+        <connection_type>http_connection</connection_type>
+        <id>x_869151_ics_s011.GITHUB_Connect</id>
+        <is_internal>false</is_internal>
+        <multiple_connections>false</multiple_connections>
+        <name>GITHUB Connect</name>
+        <parent/>
+        <retry_policy display_value="Default HTTP Retry Policy">ef751ff07301330025d71afe2ff6a7f9</retry_policy>
+        <sys_class_name>sys_alias</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-07 10:59:16</sys_created_on>
+        <sys_id>3f0cc9868367d610645f9470ceaad37f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_869151_ics_s011.GITHUB_Connect</sys_name>
+        <sys_package display_value="ICS S011 OpenAI HAck" source="x_869151_ics_s011">9c9b4d028367d610645f9470ceaad349</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ICS S011 OpenAI HAck">9c9b4d028367d610645f9470ceaad349</sys_scope>
+        <sys_update_name>sys_alias_3f0cc9868367d610645f9470ceaad37f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-07 10:59:16</sys_updated_on>
+        <type>connection</type>
+    </sys_alias>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ICS S011 OpenAI HAck">9c9b4d028367d610645f9470ceaad349</application>
+        <file_path/>
+        <instance_id>e43c9a8f1b194e9465324089bd4bcb4b</instance_id>
+        <instance_name>dev256262</instance_name>
+        <name>sys_alias_3f0cc9868367d610645f9470ceaad37f</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_alias"><sys_alias action="INSERT_OR_UPDATE"><configuration_template/><connection_type>http_connection</connection_type><id>x_869151_ics_s011.GITHUB_Connect</id><is_internal>false</is_internal><multiple_connections>false</multiple_connections><name>GITHUB Connect</name><parent/><retry_policy display_value="Default HTTP Retry Policy">ef751ff07301330025d71afe2ff6a7f9</retry_policy><sys_class_name>sys_alias</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-02-07 10:59:16</sys_created_on><sys_id>3f0cc9868367d610645f9470ceaad37f</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_869151_ics_s011.GITHUB_Connect</sys_name><sys_package display_value="ICS S011 OpenAI HAck" source="x_869151_ics_s011">9c9b4d028367d610645f9470ceaad349</sys_package><sys_policy/><sys_scope display_value="ICS S011 OpenAI HAck">9c9b4d028367d610645f9470ceaad349</sys_scope><sys_update_name>sys_alias_3f0cc9868367d610645f9470ceaad37f</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-02-07 10:59:16</sys_updated_on><type>connection</type></sys_alias></record_update>]]></payload>
+        <payload_hash>-739442248</payload_hash>
+        <record_name>x_869151_ics_s011.GITHUB_Connect</record_name>
+        <reverted_from/>
+        <source>549b4d468367d610645f9470ceaad313</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-07 10:59:16</sys_created_on>
+        <sys_id>db2c8d868367d610645f9470ceaad35e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>194e0105e3d0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-07 10:59:16</sys_updated_on>
+        <type>Connection &amp; Credential Aliases</type>
+        <update_guid>df2c8d869767d6102051616b99cdca5d</update_guid>
+        <update_guid_history>df2c8d869767d6102051616b99cdca5d:-739442248</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-07 11:00:07</sys_created_on>
+        <sys_db_object display_value="" name="sys_alias">sys_alias</sys_db_object>
+        <sys_id>5efe3ebf959041ecaae1fbe6441fb8c4</sys_id>
+        <sys_metadata>3f0cc9868367d610645f9470ceaad37f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_869151_ics_s011.GITHUB_Connect</sys_name>
+        <sys_package display_value="ICS S011 OpenAI HAck" source="x_869151_ics_s011">9c9b4d028367d610645f9470ceaad349</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ICS S011 OpenAI HAck">9c9b4d028367d610645f9470ceaad349</sys_scope>
+        <sys_scope_delete display_value="">15e4f8a06ca44bcf8f096d0ac7ae0e01</sys_scope_delete>
+        <sys_update_name>sys_alias_3f0cc9868367d610645f9470ceaad37f</sys_update_name>
+        <sys_update_version display_value="sys_alias_3f0cc9868367d610645f9470ceaad37f">db2c8d868367d610645f9470ceaad35e</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-07 11:00:07</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
