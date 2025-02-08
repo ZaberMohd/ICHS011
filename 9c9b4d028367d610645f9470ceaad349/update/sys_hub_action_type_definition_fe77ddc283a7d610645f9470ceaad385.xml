@@ -31,7 +31,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>fe77ddc283a7d610645f9470ceaad385</sys_id>
-        <sys_mod_count>57</sys_mod_count>
+        <sys_mod_count>70</sys_mod_count>
         <sys_name>OpenAI action</sys_name>
         <sys_overrides/>
         <sys_package display_value="ICS S011 OpenAI HAck" source="x_869151_ics_s011">9c9b4d028367d610645f9470ceaad349</sys_package>
@@ -39,7 +39,7 @@
         <sys_scope display_value="ICS S011 OpenAI HAck">9c9b4d028367d610645f9470ceaad349</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_fe77ddc283a7d610645f9470ceaad385</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-02-07 15:52:18</sys_updated_on>
+        <sys_updated_on>2025-02-08 01:20:18</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -75,14 +75,26 @@
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=fe77ddc283a7d610645f9470ceaad385"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>cleanoutforen</field>
+        <id>fe77ddc283a7d610645f9470ceaad385</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-08 00:44:05</sys_created_on>
+        <sys_id>a9f8005683671a10645f9470ceaad34b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-08 00:44:05</sys_updated_on>
+        <table>var__m_sys_hub_action_output_fe77ddc283a7d610645f9470ceaad385</table>
+        <value>{{step[f404677a-b53f-4f02-99be-8bb98bbc58a1].outputsummaries}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>outputai</field>
         <id>fe77ddc283a7d610645f9470ceaad385</id>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-02-07 14:30:54</sys_created_on>
         <sys_id>979c750a836bd610645f9470ceaad305</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-02-07 14:30:54</sys_updated_on>
+        <sys_updated_on>2025-02-08 00:44:05</sys_updated_on>
         <table>var__m_sys_hub_action_output_fe77ddc283a7d610645f9470ceaad385</table>
         <value>{{step[79238e6b-6824-4cbb-bd5c-71d13b2cdb90].Payload.Content}}</value>
     </sys_element_mapping>
@@ -278,7 +290,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>5e7c710a836bd610645f9470ceaad3f5</sys_id>
-        <sys_mod_count>12</sys_mod_count>
+        <sys_mod_count>20</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -286,7 +298,7 @@
         <sys_scope display_value="ICS S011 OpenAI HAck">9c9b4d028367d610645f9470ceaad349</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-02-07 15:52:14</sys_updated_on>
+        <sys_updated_on>2025-02-08 01:20:15</sys_updated_on>
         <type>complex_object_schema</type>
     </sys_complex_object>
     <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
@@ -1187,14 +1199,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-02-07 11:54:22</sys_created_on>
         <sys_id>dec8d90a83a7d610645f9470ceaad319</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="ICS S011 OpenAI HAck">9c9b4d028367d610645f9470ceaad349</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-02-07 14:30:54</sys_updated_on>
+        <sys_updated_on>2025-02-08 01:20:08</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1274,14 +1286,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-02-07 11:54:22</sys_created_on>
         <sys_id>e2c8d90a83a7d610645f9470ceaad338</sys_id>
-        <sys_mod_count>63</sys_mod_count>
+        <sys_mod_count>79</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="ICS S011 OpenAI HAck">9c9b4d028367d610645f9470ceaad349</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-02-07 15:52:14</sys_updated_on>
+        <sys_updated_on>2025-02-08 01:20:15</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1429,17 +1441,17 @@
     <sys_hub_action_plan action="INSERT_OR_UPDATE">
         <action_id display_value="OpenAI action">fe77ddc283a7d610645f9470ceaad385</action_id>
         <plan>{"type":"PlanProxy","persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"501d314a836bd610645f9470ceaad313","name":"plan","plan_signature":null}}</plan>
-        <snapshot>f33f8a8283ebd610645f9470ceaad3e7</snapshot>
+        <snapshot>c8419cde83671a10645f9470ceaad36a</snapshot>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-02-07 14:32:53</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>501d314a836bd610645f9470ceaad313</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-02-07 15:52:19</sys_updated_on>
+        <sys_updated_on>2025-02-08 01:20:19</sys_updated_on>
     </sys_hub_action_plan>
     <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
         <access>public</access>
@@ -1735,7 +1747,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>3b0dfd0a836bd610645f9470ceaad395</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -1743,7 +1755,7 @@
         <sys_scope display_value="ICS S011 OpenAI HAck">9c9b4d028367d610645f9470ceaad349</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-02-07 15:52:17</sys_updated_on>
+        <sys_updated_on>2025-02-08 01:20:18</sys_updated_on>
         <type>complex_object_schema</type>
     </sys_complex_object>
     <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
@@ -2488,14 +2500,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-02-07 14:32:51</sys_created_on>
         <sys_id>4c1dfd0a836bd610645f9470ceaad3b4</sys_id>
-        <sys_mod_count>9</sys_mod_count>
+        <sys_mod_count>11</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="ICS S011 OpenAI HAck">9c9b4d028367d610645f9470ceaad349</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-02-07 15:52:18</sys_updated_on>
+        <sys_updated_on>2025-02-08 01:20:18</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
