@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="email_client=true,hasWorkflow=true,live_feed=true,all_tables.query_hints=true" audit="true" db_object_id="9fe7f788e492021008dda4ccc40080ce" extends="task" label="Incident" max_length="40" name="incident" text_index="true" type="collection">
+        <element attributes="edge_encryption_enabled=true" choice="3" default="english" label="Langauge" max_length="40" name="x_869151_ics_s011_u_choice_1" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Vietnamese" sequence="20" value="vietnamese"/>
+                <element inactive_on_update="false" label="Greek" sequence="22" value="greek"/>
+                <element inactive_on_update="false" label="Turkish" sequence="24" value="turkish"/>
+                <element inactive_on_update="false" label="French" sequence="1" value="french"/>
+                <element inactive_on_update="false" label="Malayalam" sequence="16" value="malayalam"/>
+                <element inactive_on_update="false" label="Indonesian" sequence="18" value="indonesian"/>
+                <element inactive_on_update="false" label="Hungarian" sequence="29" value="hungarian"/>
+                <element inactive_on_update="false" label="Ukrainian" sequence="25" value="ukrainian"/>
+                <element inactive_on_update="false" label="Romanian" sequence="27" value="romanian"/>
+                <element inactive_on_update="false" label="Danish" sequence="31" value="danish"/>
+                <element inactive_on_update="false" label="Filipino" sequence="33" value="filipino"/>
+                <element inactive_on_update="false" label="Chinese" sequence="8" value="chinese"/>
+                <element inactive_on_update="false" label="German" sequence="2" value="german"/>
+                <element inactive_on_update="false" label="Italian" sequence="4" value="italian"/>
+                <element inactive_on_update="false" label="Dutch" sequence="6" value="dutch"/>
+                <element inactive_on_update="false" label="Korean" sequence="10" value="korean"/>
+                <element inactive_on_update="false" label="Hindi" sequence="12" value="hindi"/>
+                <element inactive_on_update="false" label="Tamil" sequence="14" value="tamil"/>
+                <element inactive_on_update="false" label="Hebrew" sequence="21" value="hebrew"/>
+                <element inactive_on_update="false" label="Polish" sequence="23" value="polish"/>
+                <element inactive_on_update="false" label="Urdu" sequence="17" value="urdu"/>
+                <element inactive_on_update="false" label="Thai" sequence="19" value="thai"/>
+                <element inactive_on_update="false" label="Swedish" sequence="26" value="swedish"/>
+                <element inactive_on_update="false" label="Czech" sequence="28" value="czech"/>
+                <element inactive_on_update="false" label="Finnish" sequence="30" value="finnish"/>
+                <element inactive_on_update="false" label="English" sequence="0" value="english"/>
+                <element inactive_on_update="false" label="Norwegian" sequence="32" value="norwegian"/>
+                <element inactive_on_update="false" label="Portuguese" sequence="5" value="portuguese"/>
+                <element inactive_on_update="false" label="Russian" sequence="7" value="russian"/>
+                <element inactive_on_update="false" label="Spanish" sequence="3" value="spanish"/>
+                <element inactive_on_update="false" label="Bengali" sequence="13" value="bengali"/>
+                <element inactive_on_update="false" label="Telugu" sequence="15" value="telugu"/>
+                <element inactive_on_update="false" label="Japanese" sequence="9" value="japanese"/>
+                <element inactive_on_update="false" label="Arabic" sequence="11" value="arabic"/>
+            </choice>
+        </element>
+    </element>
+</database>

@@ -34,7 +34,8 @@
 
 
     function cleanText(response) {
-        return response.replace(/\s+/g, ' ') // Replace multiple spaces with a single space
+        return response.replace(/[\*\"]/g, '') // Remove * and " characters
+            .replace(/\s+/g, ' ') // Replace multiple spaces with a single space
             .trim() // Remove leading and trailing spaces
             .replace(/(\r\n|\n|\r)/g, ' '); // Replace newlines with spaces
     }
@@ -42,12 +43,14 @@
 
     // Apply the cleanText function
     let cleanedResponse = cleanText(response);
-	gs.addInfoMessage("clear response : " + response );
+    gs.addInfoMessage("clear response : " + response);
 
 
     try {
         var inputs = {};
-        inputs['prompt1'] = "Summarize the following conversation by extracting key details, actions taken, and resolution steps.Ensure the summary is clear, concise, and structured logically.Then, translate the summary into marathi while maintaining accuracy and readability.and give me only in marathi "; // String 
+        inputs['prompt1'] = "Summarize the following conversation by extracting key details, actions taken, and resolution steps.Ensure the summary is clear, concise, and structured logically.Then, translate the summary into "+ current.x_869151_ics_s011_u_choice_1+" while maintaining accuracy and readability.and give me only in"+ current.x_869151_ics_s011_u_choice_1 ; // String 
+
+		gs.addInfoMessage(inputs['prompt1'] );
         inputs['result'] = cleanedResponse; // String 
 
         // Start Asynchronously: Uncomment to run in background. Code snippet will not have access to outputs.
@@ -83,7 +86,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>6966e38683a31a10645f9470ceaad360</sys_id>
-        <sys_mod_count>38</sys_mod_count>
+        <sys_mod_count>43</sys_mod_count>
         <sys_name>Translate</sys_name>
         <sys_overrides/>
         <sys_package display_value="ICS S011 OpenAI HAck" source="x_869151_ics_s011">9c9b4d028367d610645f9470ceaad349</sys_package>
@@ -91,7 +94,7 @@
         <sys_scope display_value="ICS S011 OpenAI HAck">9c9b4d028367d610645f9470ceaad349</sys_scope>
         <sys_update_name>sys_ui_action_6966e38683a31a10645f9470ceaad360</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-02-08 02:25:52</sys_updated_on>
+        <sys_updated_on>2025-02-08 04:21:44</sys_updated_on>
         <table>incident</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>
